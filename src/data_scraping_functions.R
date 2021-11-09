@@ -5,15 +5,13 @@ get_team_names <- function(year = 2022){
   
   url <- paste0("https://www.basketball-reference.com/leagues/NBA_", year, "_standings.html")
   
-  css_page <- '#team_vs_team'
-  
   teams_mat <- url %>%
     read_html %>%
     html_nodes(xpath = '//comment()') %>%
     html_text() %>%
     paste(collapse='') %>%
     read_html() %>% 
-    html_node(css_page) %>% 
+    html_node('#team_vs_team') %>% 
     html_table()
   
   teams <- tibble(team = teams_mat$Team,
@@ -31,9 +29,8 @@ get_player_data <- function(year = 2022, totals = T, per_100 = T,
   tot_page <- paste0("https://www.basketball-reference.com/leagues/NBA_", year, "_totals.html") %>% 
     read_html_s()
   
-  css_page <- '#totals_stats'
   tot <- tot_page %>%
-    html_nodes(css_page) %>%
+    html_nodes('#totals_stats') %>%
     html_table(header = T) %>%
     pluck(1) %>% 
     janitor::clean_names() %>% 
@@ -53,10 +50,8 @@ get_player_data <- function(year = 2022, totals = T, per_100 = T,
     
     if(!is_null(pos_page)){
       
-      css_page <- '#per_poss_stats'
-      
       pos <- pos_page %>%
-        html_nodes(css_page) %>%
+        html_nodes('#per_poss_stats') %>%
         html_table(header = T) %>%
         pluck(1) %>% 
         janitor::clean_names() %>% 
@@ -75,9 +70,9 @@ get_player_data <- function(year = 2022, totals = T, per_100 = T,
       read_html_s()
     
     if(!is_null(adv_page)){
-      css_page <- '#advanced_stats'
+
       adv <- adv_page %>% 
-        html_nodes(css_page) %>%
+        html_nodes('#advanced_stats') %>%
         html_table(header = T) %>%
         pluck(1) %>% 
         janitor::clean_names() %>% 
@@ -95,9 +90,9 @@ get_player_data <- function(year = 2022, totals = T, per_100 = T,
       read_html_s()
     
     if(!is_null(pbp_page)){
-      css_page <- '#pbp_stats'
+      
       pbp <- pbp_page %>% 
-      html_nodes(css_page) %>%
+      html_nodes('#pbp_stats') %>%
         html_table(header = T) %>%
         pluck(1)
       
@@ -126,9 +121,9 @@ get_player_data <- function(year = 2022, totals = T, per_100 = T,
       read_html_s()
     
     if(!is_null(shoot_page)){
-      css_page <- '#shooting_stats'
+      
       shoot <- shoot_page %>% 
-        html_nodes(css_page) %>%
+        html_nodes('#shooting_stats') %>%
         html_table(header = T) %>%
         pluck(1) %>% 
         tibble::repair_names() %>% 
@@ -159,7 +154,6 @@ get_player_data <- function(year = 2022, totals = T, per_100 = T,
       read_html_s()
     
     if(!is_null(adj_shooting_page)){
-      css_page <- '#adj-shooting'
       
       adj <- adj_url %>% 
         read_html %>% 
@@ -167,7 +161,7 @@ get_player_data <- function(year = 2022, totals = T, per_100 = T,
         html_text() %>%
         paste(collapse='') %>%
         read_html_s() %>% 
-        html_node(css_page) %>% 
+        html_node('#adj-shooting') %>% 
         html_table() %>%
         set_tidy_names()
       
@@ -211,10 +205,10 @@ get_team_ratings <- function(year = 2022){
   read_html_s <- possibly(read_html, otherwise = NULL)
   
   url <- paste0("https://www.basketball-reference.com/leagues/NBA_", year, "_ratings.html")
-  css_page <- "#ratings"
+
   team_ratings <- url %>% 
     read_html_s %>%
-    html_nodes(css_page) %>% 
+    html_nodes("#ratings") %>% 
     html_table() %>% 
     pluck(1)
   
