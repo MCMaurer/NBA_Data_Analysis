@@ -11,6 +11,7 @@ output:
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 source("src/data_scraping_functions.R")
+library(ggplot2)
 ```
 
 # NBA Data Analysis and Visualization
