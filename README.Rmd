@@ -1,0 +1,36 @@
+---
+title: "README"
+author: "Michael Culshaw-Maurer"
+date: "`r format(Sys.time(), '%B %d, %Y')`"
+output: 
+  md_document:
+    variant: gfm
+  
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+source("src/data_scraping_functions.R")
+```
+
+# NBA Data Analysis and Visualization
+
+Doing some analysis and visualization of NBA data, for fun.
+
+Data, so far, are gathered from the wonderful [Basketball Reference](https://www.basketball-reference.com/).
+
+## Data as of `r format(Sys.time(), '%B %d, %Y')`
+
+### Team Standings
+
+```{r, echo=F, message=F}
+td <- get_team_data(per_100 = F, advanced = F, shooting = F)
+
+td %>% 
+  select(team, g, conf, div, w, l, w_l_percent) %>% 
+  group_by(conf) %>% 
+  arrange(desc(w_l_percent)) %>% 
+  group_split() %>% 
+  knitr::kable(format = "simple")
+```
+
