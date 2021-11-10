@@ -27,11 +27,27 @@ Data, so far, are gathered from the wonderful [Basketball Reference](https://www
 ```{r, echo=F, message=F}
 td <- get_team_data(per_100 = F, advanced = F, shooting = F)
 
-td %>% 
-  select(team, g, conf, div, w, l, w_l_percent) %>% 
+standings <- td %>% 
+  select(team, g, conf, div, w, l, w_l_percent, 
+         unadjusted_n_rtg) %>% 
   group_by(conf) %>% 
-  arrange(desc(w_l_percent)) %>% 
-  group_split() %>% 
+  arrange(desc(w_l_percent), desc(unadjusted_n_rtg)) %>% 
+  group_split(.keep = F)
+```
+
+#### Eastern Conference
+
+```{r}
+standings %>%
+  pluck(1) %>% 
+  knitr::kable(format = "simple")
+```
+
+#### Western Conference
+
+```{r}
+standings %>%
+  pluck(2) %>% 
   knitr::kable(format = "simple")
 ```
 
