@@ -9,7 +9,7 @@ output:
 ---
 
 ```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
+knitr::opts_chunk$set(echo = F)
 source("src/data_scraping_functions.R")
 library(ggplot2)
 ```
@@ -24,7 +24,7 @@ Data, so far, are gathered from the wonderful [Basketball Reference](https://www
 
 ### Team Standings
 
-```{r, echo=F, message=F}
+```{r, message=F}
 td <- get_team_data(per_100 = F, advanced = F, shooting = F)
 
 standings <- td %>% 
