@@ -11,12 +11,6 @@ Reference](https://www.basketball-reference.com/).
 
 #### Eastern Conference
 
-``` r
-standings %>%
-  pluck(1) %>% 
-  knitr::kable(format = "simple")
-```
-
 | team                |  g | div | w | l | w\_l\_percent | unadjusted\_n\_rtg |
 | :------------------ | -: | :-- | -: | -: | ------------: | -----------------: |
 | Miami Heat          | 10 | SE  | 7 | 3 |         0.700 |               8.40 |
@@ -36,12 +30,6 @@ standings %>%
 | Detroit Pistons     |  9 | C   | 1 | 8 |         0.111 |            \-12.64 |
 
 #### Western Conference
-
-``` r
-standings %>%
-  pluck(2) %>% 
-  knitr::kable(format = "simple")
-```
 
 | team                   |  g | div | w |  l | w\_l\_percent | unadjusted\_n\_rtg |
 | :--------------------- | -: | :-- | -: | -: | ------------: | -----------------: |
