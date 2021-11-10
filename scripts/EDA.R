@@ -164,7 +164,7 @@ d2 <- d %>%
 
 d2 %>% 
   ggplot(aes(x = fouls_drawn_shoot, y = vorp, color = d_rtg_p100p, alpha = highlight)) +
-  geom_line(stat = "smooth", group = 1, color = "black", alpha = 0.1) +
+  #geom_line(stat = "smooth", group = 1, color = "black", alpha = 0.1) +
   geom_smooth(group = 1, color = "grey90", alpha = 0.1) +
   geom_point() +
   geom_text_repel(data = d2 %>% 
