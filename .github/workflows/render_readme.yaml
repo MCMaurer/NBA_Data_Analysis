@@ -1,0 +1,23 @@
+on:
+  push:
+    branches:
+      - main
+      
+jobs:
+  render:
+    name: Render validation RMD
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: r-lib/actions/setup-r@v1
+      - uses: r-lib/actions/setup-pandoc@v1
+      - uses: r-lib/actions/setup-tinytex@v1
+      - name: Install packages
+        run: Rscript -e 'install.packages(c("rvest", "tidyverse", "janitor", "rmarkdown", "knitr"))'
+      - name: Render README
+        run: Rscript -e 'rmarkdown::render("README.Rmd")'
+      - name: Commit results
+        run: |
+          git add --force validation.html README.md
+          git commit -m 'Rerun validation checks' || echo "No changes to commit"
+          git push origin || echo "No changes to commit"
