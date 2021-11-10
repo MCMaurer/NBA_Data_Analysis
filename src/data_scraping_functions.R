@@ -1,5 +1,10 @@
-library(tidyverse)
 library(rvest)
+library(dplyr)
+library(tidyr)
+library(readr)
+library(purrr)
+library(stringr)
+library(tibble)
 
 get_team_names <- function(year = 2022){
   
