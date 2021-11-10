@@ -1,6 +1,12 @@
 source("src/data_scraping_functions.R")
 
+library(fs)
+
+
+
 write_team_names <- function(year){
+  
+  dir_create("data/team_names_by_year/")
   
   teams <- get_team_names(year)
   
@@ -10,7 +16,9 @@ write_team_names <- function(year){
 walk(1950:2022, write_team_names)
 
 write_player_data <- function(year){
-  print(year)
+  
+  dir_create("data/player_data_by_year/")
+  
   pd <- get_player_data(year)
   
   write_csv(pd, paste0("data/player_data_by_year/player_data_", year, ".csv"))
