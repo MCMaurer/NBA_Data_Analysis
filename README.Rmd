@@ -12,6 +12,8 @@ output:
 knitr::opts_chunk$set(echo = F)
 source("src/data_scraping_functions.R")
 library(ggplot2)
+
+theme_set(theme_minimal())
 ```
 
 # NBA Data Analysis and Visualization
@@ -33,6 +35,9 @@ standings <- td %>%
   group_by(conf) %>% 
   arrange(desc(w_l_percent), desc(unadjusted_n_rtg)) %>% 
   group_split(.keep = F)
+
+col_labels <- c("Team", "Games", "Div.", "W", "L",
+                "W/L", "Net Rating")
 ```
 
 #### Eastern Conference
@@ -40,7 +45,7 @@ standings <- td %>%
 ```{r}
 standings %>%
   pluck(1) %>% 
-  knitr::kable(format = "simple")
+  knitr::kable(col.names = col_labels)
 ```
 
 #### Western Conference
@@ -48,6 +53,55 @@ standings %>%
 ```{r}
 standings %>%
   pluck(2) %>% 
-  knitr::kable(format = "simple")
+  knitr::kable(col.names = col_labels)
+```
+
+
+### Individual Stats
+
+```{r}
+d <- get_player_data(per_100 = F, pbp = F, shooting = F,
+                     adj_shooting = F)
+```
+
+#### PPG Leaders
+
+```{r}
+d %>% 
+  select(player, tm, pts, g) %>% 
+  mutate(ppg = pts/g) %>% 
+  arrange(desc(ppg)) %>% 
+  head(5) %>% 
+  knitr::kable()
+```
+
+#### VORP Leaders
+
+```{r}
+d %>% 
+  select(player, tm, vorp) %>% 
+  arrange(desc(vorp)) %>% 
+  head(5) %>% 
+  knitr::kable()
+```
+
+```{r}
+d %>% 
+  slice_max(mp, prop = 0.9) %>% 
+  select(player, pos_simple, pts, ast, trb, blk, tov, e_fg_percent, ws_48, vorp) %>% 
+  mutate(across(where(is.numeric), scales::rescale)) %>% 
+  arrange(desc(vorp)) %>% 
+  group_by(pos_simple) %>% 
+  slice_max(vorp, n = 5) %>% 
+  pivot_longer(-(1:2), names_to = "metric") %>% 
+  ggplot(aes(x = metric, y = tidytext::reorder_within(player, value, pos_simple), fill = value)) +
+  geom_tile() +
+  tidytext::scale_y_reordered() +
+  facet_wrap(vars(pos_simple), ncol = 1, scales = "free") +
+  scale_fill_viridis_c() +
+  theme(axis.text.x = element_text(angle = 45)) +
+  labs(x = "Stat",
+       y = "Player",
+       fill = "Percentile\nin NBA")
 ```
 
