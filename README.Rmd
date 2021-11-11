@@ -89,17 +89,19 @@ d %>%
 d %>% 
   slice_max(mp, prop = 0.9) %>% 
   select(player, pos_simple, pts, ast, trb, blk, tov, e_fg_percent, ws_48, vorp) %>% 
+  rename(`eFG%` = e_fg_percent, AST = ast, BLK = blk, PTS = pts,
+         TOV = tov, TRB = trb, VORP = vorp, `WS/48` = ws_48) %>% 
   mutate(across(where(is.numeric), scales::rescale)) %>% 
-  arrange(desc(vorp)) %>% 
+  arrange(desc(VORP)) %>% 
   group_by(pos_simple) %>% 
-  slice_max(vorp, n = 5) %>% 
+  slice_max(VORP, n = 5) %>% 
   pivot_longer(-(1:2), names_to = "metric") %>% 
   ggplot(aes(x = metric, y = tidytext::reorder_within(player, value, pos_simple), fill = value)) +
   geom_tile() +
   tidytext::scale_y_reordered() +
   facet_wrap(vars(pos_simple), ncol = 1, scales = "free") +
   scale_fill_viridis_c() +
-  theme(axis.text.x = element_text(angle = 45)) +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1)) +
   labs(x = "Stat",
        y = "Player",
        fill = "Percentile\nin NBA")
