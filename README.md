@@ -5,30 +5,9 @@ Doing some analysis and visualization of NBA data, for fun.
 Data, so far, are gathered from the wonderful [Basketball
 Reference](https://www.basketball-reference.com/).
 
-## Data as of November 15, 2021
+## Data as of 10:32PM November 15, 2021
 
 ### Team Standings
-
-    ## # A tibble: 30 × 107
-    ##    team       g    mp    fg   fga fg_percent   x3p  x3pa x3p_percent   x2p  x2pa
-    ##    <chr>  <dbl> <dbl> <int> <int>      <dbl> <int> <int>       <dbl> <int> <int>
-    ##  1 Charl…    15  3650   632  1409      0.449   201   539       0.373   431   870
-    ##  2 Los A…    14  3435   586  1267      0.463   168   461       0.364   418   806
-    ##  3 Phila…    14  3360   568  1203      0.472   180   470       0.383   388   733
-    ##  4 India…    14  3410   586  1242      0.472   177   493       0.359   409   749
-    ##  5 Portl…    14  3360   563  1251      0.45    194   560       0.346   369   691
-    ##  6 Brook…    14  3360   552  1174      0.47    194   494       0.393   358   680
-    ##  7 Milwa…    14  3385   557  1264      0.441   205   578       0.355   352   686
-    ##  8 Atlan…    14  3360   569  1275      0.446   160   445       0.36    409   830
-    ##  9 Golde…    13  3145   544  1160      0.469   197   551       0.358   347   609
-    ## 10 Toron…    14  3360   560  1276      0.439   150   444       0.338   410   832
-    ## # … with 20 more rows, and 96 more variables: x2p_percent <dbl>, ft <int>,
-    ## #   fta <int>, ft_percent <dbl>, orb <int>, drb <int>, trb <int>, ast <int>,
-    ## #   stl <int>, blk <int>, tov <int>, pf <int>, pts <int>, fg_p100p <dbl>,
-    ## #   fga_p100p <dbl>, fg_percent_p100p <dbl>, x3p_p100p <dbl>, x3pa_p100p <dbl>,
-    ## #   x3p_percent_p100p <dbl>, x2p_p100p <dbl>, x2pa_p100p <dbl>,
-    ## #   x2p_percent_p100p <dbl>, ft_p100p <dbl>, fta_p100p <dbl>,
-    ## #   ft_percent_p100p <dbl>, orb_p100p <dbl>, drb_p100p <dbl>, …
 
 #### Eastern Conference
 
@@ -71,94 +50,6 @@ Reference](https://www.basketball-reference.com/).
 | Houston Rockets        |    13 | SW   |  1 | 12 | 0.077 |     \-9.19 |
 
 ### Individual Stats
-
-    ## Joining, by = c("player", "pos", "age", "tm", "g", "gs", "mp")
-
-    ## Joining, by = c("player", "pos", "age", "tm", "g", "mp")
-
-    ## Joining, by = c("player", "pos", "age", "tm")
-
-    ## New names:
-    ##  -> ..1
-    ##  -> ..2
-    ##  -> ..3
-    ##  -> ..4
-    ##  -> ..5
-    ##  -> ..6
-    ##  -> ..7
-    ##  -> ..8
-    ##  -> ..9
-    ##  -> ..10
-    ## % of FGA by Distance -> % of FGA by Distance..11
-    ## % of FGA by Distance -> % of FGA by Distance..12
-    ## % of FGA by Distance -> % of FGA by Distance..13
-    ## % of FGA by Distance -> % of FGA by Distance..14
-    ## % of FGA by Distance -> % of FGA by Distance..15
-    ## % of FGA by Distance -> % of FGA by Distance..16
-    ##  -> ..17
-    ## FG% by Distance -> FG% by Distance..18
-    ## FG% by Distance -> FG% by Distance..19
-    ## FG% by Distance -> FG% by Distance..20
-    ## FG% by Distance -> FG% by Distance..21
-    ## FG% by Distance -> FG% by Distance..22
-    ## FG% by Distance -> FG% by Distance..23
-    ##  -> ..24
-    ## % of FG Ast'd -> % of FG Ast'd..25
-    ## % of FG Ast'd -> % of FG Ast'd..26
-    ##  -> ..27
-    ## Dunks -> Dunks..28
-    ## Dunks -> Dunks..29
-    ##  -> ..30
-    ## Corner 3s -> Corner 3s..31
-    ## Corner 3s -> Corner 3s..32
-    ##  -> ..33
-    ## Heaves -> Heaves..34
-    ## Heaves -> Heaves..35
-
-    ## Joining, by = c("player", "pos", "age", "tm", "g", "mp", "fg_percent")
-
-    ## New names:
-    ##  -> ..1
-    ##  -> ..2
-    ##  -> ..3
-    ##  -> ..4
-    ##  -> ..5
-    ##  -> ..6
-    ##  -> ..7
-    ##  -> ..8
-    ## Player Shooting % -> Player Shooting %..9
-    ## Player Shooting % -> Player Shooting %..10
-    ## Player Shooting % -> Player Shooting %..11
-    ## Player Shooting % -> Player Shooting %..12
-    ## Player Shooting % -> Player Shooting %..13
-    ## Player Shooting % -> Player Shooting %..14
-    ## Player Shooting % -> Player Shooting %..15
-    ## Player Shooting % -> Player Shooting %..16
-    ##  -> ..17
-    ## League-Adjusted -> League-Adjusted..18
-    ## League-Adjusted -> League-Adjusted..19
-    ## League-Adjusted -> League-Adjusted..20
-    ## League-Adjusted -> League-Adjusted..21
-    ## League-Adjusted -> League-Adjusted..22
-    ## League-Adjusted -> League-Adjusted..23
-    ## League-Adjusted -> League-Adjusted..24
-    ## League-Adjusted -> League-Adjusted..25
-    ##  -> ..26
-    ##  -> ..27
-    ##  -> ..28
-
-    ## Joining, by = c("player", "pos", "age", "tm", "g", "mp")
-
-    ## 
-    ## ── Column specification ────────────────────────────────────────────────────────
-    ## cols(
-    ##   .default = col_double(),
-    ##   player = col_character(),
-    ##   pos = col_character(),
-    ##   tm = col_character(),
-    ##   pos_simple = col_character()
-    ## )
-    ## ℹ Use `spec()` for the full column specifications.
 
 #### PPG Leaders
 
