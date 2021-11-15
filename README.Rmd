@@ -26,7 +26,7 @@ Doing some analysis and visualization of NBA data, for fun.
 
 Data, so far, are gathered from the wonderful [Basketball Reference](https://www.basketball-reference.com/).
 
-## Data as of `r format(Sys.time(), '%I:%M%p %B %d, %Y')`
+## Data as of `r as.POSIXct(Sys.time()) %>% `attr<-`("tzone", "CST") %>% format("%I:%M%p %B %d, %Y")`
 
 ### Team Standings
 
