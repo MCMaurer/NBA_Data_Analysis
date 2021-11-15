@@ -9,7 +9,10 @@ output:
 ---
 
 ```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = F)
+knitr::opts_chunk$set(
+  echo = F,
+  fig.path = "README_files/figure-gfm/README-")
+
 source("src/data_scraping_functions.R")
 library(ggplot2)
 
@@ -27,7 +30,9 @@ Data, so far, are gathered from the wonderful [Basketball Reference](https://www
 ### Team Standings
 
 ```{r, message=F}
-td <- get_team_data(per_100 = F, advanced = F, shooting = F)
+td <- get_team_data(ratings = T)
+
+td
 
 standings <- td %>% 
   select(team, g, conf, div, w, l, w_l_percent, 
@@ -60,8 +65,7 @@ standings %>%
 ### Individual Stats
 
 ```{r}
-d <- get_player_data(per_100 = F, pbp = F, shooting = F,
-                     adj_shooting = F)
+d <- get_player_data(advanced = T)
 ```
 
 #### PPG Leaders
@@ -87,7 +91,7 @@ d %>%
 
 ```{r}
 d %>% 
-  slice_max(mp, prop = 0.9) %>% 
+  slice_max(mp, prop = 0.8) %>% 
   select(player, pos_simple, pts, ast, trb, blk, tov, e_fg_percent, ws_48, vorp) %>% 
   rename(`eFG%` = e_fg_percent, AST = ast, BLK = blk, PTS = pts,
          TOV = tov, TRB = trb, VORP = vorp, `WS/48` = ws_48) %>% 
