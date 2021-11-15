@@ -27,6 +27,7 @@ jobs:
           git config --global user.email "culshawmaurer@arizona.edu"
           git config --global user.name "Michael Culshaw-Maurer"
           git add --force README.md
+          git add --force README_files/
           git commit -m 'Render README.md' || echo "No changes to commit"
           git push origin || echo "No changes to commit"
 
