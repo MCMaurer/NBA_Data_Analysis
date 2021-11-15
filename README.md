@@ -5,29 +5,29 @@ Doing some analysis and visualization of NBA data, for fun.
 Data, so far, are gathered from the wonderful [Basketball
 Reference](https://www.basketball-reference.com/).
 
-## Data as of November 14, 2021
+## Data as of November 15, 2021
 
 ### Team Standings
 
 #### Eastern Conference
 
-| Team                | Games | Div. | W | L |   W/L | Net Rating |
+| Team                | Games | Div. | W |  L |   W/L | Net Rating |
 | :------------------ | ----: | :--- | -: | -: | ----: | ---------: |
-| Washington Wizards  |    11 | SE   | 8 | 3 | 0.727 |       4.17 |
-| Brooklyn Nets       |    13 | A    | 9 | 4 | 0.692 |       3.68 |
-| Chicago Bulls       |    12 | C    | 8 | 4 | 0.667 |       4.48 |
-| Philadelphia 76ers  |    13 | A    | 8 | 5 | 0.615 |       4.99 |
-| Cleveland Cavaliers |    13 | C    | 8 | 5 | 0.615 |       2.44 |
-| Miami Heat          |    12 | SE   | 7 | 5 | 0.583 |       6.53 |
-| Toronto Raptors     |    13 | A    | 7 | 6 | 0.538 |       1.78 |
-| New York Knicks     |    13 | A    | 7 | 6 | 0.538 |       0.46 |
-| Boston Celtics      |    12 | A    | 6 | 6 | 0.500 |       1.08 |
-| Charlotte Hornets   |    14 | SE   | 7 | 7 | 0.500 |     \-2.02 |
-| Milwaukee Bucks     |    13 | C    | 6 | 7 | 0.462 |     \-0.43 |
-| Indiana Pacers      |    13 | C    | 5 | 8 | 0.385 |       0.31 |
-| Atlanta Hawks       |    13 | SE   | 4 | 9 | 0.308 |     \-4.59 |
-| Orlando Magic       |    12 | SE   | 3 | 9 | 0.250 |     \-9.55 |
-| Detroit Pistons     |    11 | C    | 2 | 9 | 0.182 |    \-11.52 |
+| Washington Wizards  |    12 | SE   | 9 |  3 | 0.750 |       4.87 |
+| Brooklyn Nets       |    13 | A    | 9 |  4 | 0.692 |       3.68 |
+| Chicago Bulls       |    12 | C    | 8 |  4 | 0.667 |       4.48 |
+| Cleveland Cavaliers |    14 | C    | 9 |  5 | 0.643 |       2.42 |
+| Miami Heat          |    13 | SE   | 8 |  5 | 0.615 |       6.50 |
+| Philadelphia 76ers  |    14 | A    | 8 |  6 | 0.571 |       4.26 |
+| New York Knicks     |    13 | A    | 7 |  6 | 0.538 |       0.46 |
+| Toronto Raptors     |    14 | A    | 7 |  7 | 0.500 |       1.20 |
+| Charlotte Hornets   |    14 | SE   | 7 |  7 | 0.500 |     \-2.02 |
+| Boston Celtics      |    13 | A    | 6 |  7 | 0.462 |       0.83 |
+| Milwaukee Bucks     |    13 | C    | 6 |  7 | 0.462 |     \-0.43 |
+| Indiana Pacers      |    14 | C    | 6 |  8 | 0.429 |       0.67 |
+| Atlanta Hawks       |    13 | SE   | 4 |  9 | 0.308 |     \-4.59 |
+| Detroit Pistons     |    12 | C    | 3 |  9 | 0.250 |    \-10.03 |
+| Orlando Magic       |    13 | SE   | 3 | 10 | 0.231 |     \-9.79 |
 
 #### Western Conference
 
@@ -35,19 +35,19 @@ Reference](https://www.basketball-reference.com/).
 | :--------------------- | ----: | :--- | -: | -: | ----: | ---------: |
 | Golden State Warriors  |    12 | P    | 11 |  1 | 0.917 |      14.65 |
 | Phoenix Suns           |    11 | P    |  8 |  3 | 0.727 |       3.78 |
-| Utah Jazz              |    12 | NW   |  8 |  4 | 0.667 |       7.90 |
+| Los Angeles Clippers   |    12 | P    |  8 |  4 | 0.667 |       6.00 |
 | Denver Nuggets         |    12 | NW   |  8 |  4 | 0.667 |       3.99 |
 | Dallas Mavericks       |    12 | SW   |  8 |  4 | 0.667 |     \-1.50 |
-| Los Angeles Clippers   |    11 | P    |  7 |  4 | 0.636 |       4.17 |
+| Utah Jazz              |    13 | NW   |  8 |  5 | 0.615 |       6.81 |
 | Los Angeles Lakers     |    13 | P    |  7 |  6 | 0.538 |     \-2.27 |
-| Memphis Grizzlies      |    12 | SW   |  6 |  6 | 0.500 |     \-6.06 |
 | Portland Trail Blazers |    13 | NW   |  6 |  7 | 0.462 |       1.84 |
+| Memphis Grizzlies      |    13 | SW   |  6 |  7 | 0.462 |     \-6.53 |
 | Oklahoma City Thunder  |    11 | NW   |  5 |  6 | 0.455 |     \-6.72 |
 | Sacramento Kings       |    13 | P    |  5 |  8 | 0.385 |     \-0.68 |
-| Minnesota Timberwolves |    11 | NW   |  4 |  7 | 0.364 |     \-2.48 |
 | San Antonio Spurs      |    12 | SW   |  4 |  8 | 0.333 |       0.83 |
+| Minnesota Timberwolves |    12 | NW   |  4 |  8 | 0.333 |     \-4.45 |
+| New Orleans Pelicans   |    14 | SW   |  2 | 12 | 0.143 |     \-9.74 |
 | Houston Rockets        |    12 | SW   |  1 | 11 | 0.083 |     \-7.86 |
-| New Orleans Pelicans   |    13 | SW   |  1 | 12 | 0.077 |    \-11.43 |
 
 ### Individual Stats
 
@@ -70,9 +70,9 @@ Reference](https://www.basketball-reference.com/).
 | :-------------------- | :-- | --: | -: | -------: |
 | Kevin Durant          | BRK | 382 | 13 | 29.38462 |
 | Stephen Curry         | GSW | 341 | 12 | 28.41667 |
-| Paul George           | LAC | 294 | 11 | 26.72727 |
 | Giannis Antetokounmpo | MIL | 319 | 12 | 26.58333 |
-| Ja Morant             | MEM | 318 | 12 | 26.50000 |
+| Paul George           | LAC | 317 | 12 | 26.41667 |
+| Ja Morant             | MEM | 340 | 13 | 26.15385 |
 
 #### VORP Leaders
 
