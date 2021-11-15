@@ -84,4 +84,4 @@ Reference](https://www.basketball-reference.com/).
 | Jimmy Butler          | MIA |  1.1 |
 | Stephen Curry         | GSW |  1.1 |
 
-![](README_files/figure-gfm/unnamed-chunk-7-1.png)<!-- -->
+![](README_files/figure-gfm/README-unnamed-chunk-7-1.png)<!-- -->
