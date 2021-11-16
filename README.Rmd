@@ -72,7 +72,7 @@ d <- get_player_data(advanced = T)
 ```{r}
 d %>% 
   select(player, tm, pts, g) %>% 
-  mutate(ppg = pts/g) %>% 
+  mutate(ppg = round(pts/g, 1)) %>% 
   arrange(desc(ppg)) %>% 
   head(5) %>% 
   knitr::kable()
@@ -87,7 +87,9 @@ d %>%
   head(5) %>% 
   knitr::kable()
 ```
+#### Advanced Stat Leaders
 
+Top 5 players by VORP for C, F, and G.
 ```{r}
 d %>% 
   slice_max(mp, prop = 0.8) %>% 

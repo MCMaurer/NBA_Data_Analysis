@@ -20,14 +20,15 @@ get_team_names <- function(year = 2022){
     html_table()
   
   teams <- tibble(team = teams_mat$Team,
-                  tm = colnames(teams_mat)[-c(1:2)])
+                  tm = colnames(teams_mat)[-c(1:2)],
+                  year = year)
   
   return(teams)
 }
 
-get_player_data <- function(year = 2022, totals = T, per_100 = T,
-                            advanced = T, pbp = T, shooting = T,
-                            adj_shooting = T){
+get_player_data <- function(year = 2022, totals = T, per_100 = F,
+                            advanced = F, pbp = F, shooting = F,
+                            adj_shooting = F){
   
   read_html_s <- possibly(read_html, otherwise = NULL)
   
@@ -46,7 +47,7 @@ get_player_data <- function(year = 2022, totals = T, per_100 = T,
   if(totals){
     player_data <- tot
   } else {
-    player_data <- tot %>% select(rk, player, pos, age, tm)
+    player_data <- tot %>% select(player, pos, age, tm)
   }
   
   if(per_100){
@@ -213,8 +214,8 @@ get_player_data <- function(year = 2022, totals = T, per_100 = T,
   return(player_data)
 }
 
-get_team_data <- function(year = 2022, totals = T, per_100 = T,
-                          advanced = T, shooting = T, ratings = T){
+get_team_data <- function(year = 2022, totals = T, per_100 = F,
+                          advanced = F, shooting = F, ratings = F){
   
   read_html_s <- possibly(read_html, otherwise = NULL)
   html_node_s <- possibly(html_node, otherwise = NULL)
