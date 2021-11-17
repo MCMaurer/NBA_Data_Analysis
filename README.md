@@ -5,7 +5,7 @@ Doing some analysis and visualization of NBA data, for fun.
 Data, so far, are gathered from the wonderful [Basketball
 Reference](https://www.basketball-reference.com/).
 
-## Data as of 10:43AM November 16, 2021
+## Data as of 11:31PM November 16, 2021
 
 ### Team Standings
 
