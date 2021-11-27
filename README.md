@@ -5,7 +5,7 @@ Doing some analysis and visualization of NBA data, for fun.
 Data, so far, are gathered from the wonderful [Basketball
 Reference](https://www.basketball-reference.com/).
 
-## Data as of 06:44AM November 26, 2021
+## Data as of 06:40AM November 27, 2021
 
 ### Team Standings
 
@@ -14,39 +14,39 @@ Reference](https://www.basketball-reference.com/).
 | Team                | Games | Div. |  W |  L |   W/L | Net Rating |
 | :------------------ | ----: | :--- | -: | -: | ----: | ---------: |
 | Brooklyn Nets       |    19 | A    | 14 |  5 | 0.737 |       4.85 |
+| Chicago Bulls       |    20 | C    | 13 |  7 | 0.650 |       4.30 |
 | Miami Heat          |    19 | SE   | 12 |  7 | 0.632 |       6.56 |
-| Chicago Bulls       |    19 | C    | 12 |  7 | 0.632 |       2.66 |
-| Washington Wizards  |    18 | SE   | 11 |  7 | 0.611 |       0.56 |
-| Charlotte Hornets   |    20 | SE   | 12 |  8 | 0.600 |     \-0.41 |
-| Milwaukee Bucks     |    19 | C    | 11 |  8 | 0.579 |       2.56 |
-| New York Knicks     |    18 | A    | 10 |  8 | 0.556 |       0.87 |
-| Atlanta Hawks       |    19 | SE   | 10 |  9 | 0.526 |       1.75 |
-| Boston Celtics      |    19 | A    | 10 |  9 | 0.526 |       1.67 |
+| Washington Wizards  |    19 | SE   | 12 |  7 | 0.632 |       0.64 |
+| Charlotte Hornets   |    21 | SE   | 13 |  8 | 0.619 |       0.45 |
+| Milwaukee Bucks     |    20 | C    | 12 |  8 | 0.600 |       3.01 |
+| Atlanta Hawks       |    20 | SE   | 11 |  9 | 0.550 |       3.26 |
 | Philadelphia 76ers  |    19 | A    | 10 |  9 | 0.526 |       1.09 |
-| Toronto Raptors     |    19 | A    |  9 | 10 | 0.474 |       0.70 |
+| New York Knicks     |    19 | A    | 10 |  9 | 0.526 |     \-0.33 |
+| Boston Celtics      |    20 | A    | 10 | 10 | 0.500 |       1.17 |
 | Cleveland Cavaliers |    19 | C    |  9 | 10 | 0.474 |     \-0.50 |
-| Indiana Pacers      |    20 | C    |  8 | 12 | 0.400 |       1.63 |
-| Detroit Pistons     |    18 | C    |  4 | 14 | 0.222 |     \-9.54 |
-| Orlando Magic       |    19 | SE   |  4 | 15 | 0.211 |     \-9.90 |
+| Toronto Raptors     |    20 | A    |  9 | 11 | 0.450 |     \-0.25 |
+| Indiana Pacers      |    21 | C    |  9 | 12 | 0.429 |       2.42 |
+| Detroit Pistons     |    19 | C    |  4 | 15 | 0.211 |     \-9.61 |
+| Orlando Magic       |    20 | SE   |  4 | 16 | 0.200 |    \-11.17 |
 
 #### Western Conference
 
 | Team                   | Games | Div. |  W |  L |   W/L | Net Rating |
 | :--------------------- | ----: | :--- | -: | -: | ----: | ---------: |
-| Golden State Warriors  |    18 | P    | 16 |  2 | 0.889 |      13.63 |
-| Phoenix Suns           |    18 | P    | 15 |  3 | 0.833 |       6.89 |
-| Utah Jazz              |    18 | NW   | 12 |  6 | 0.667 |       9.16 |
+| Golden State Warriors  |    19 | P    | 17 |  2 | 0.895 |      13.73 |
+| Phoenix Suns           |    19 | P    | 16 |  3 | 0.842 |       7.68 |
+| Utah Jazz              |    19 | NW   | 12 |  7 | 0.632 |       8.62 |
 | Dallas Mavericks       |    17 | SW   | 10 |  7 | 0.588 |     \-1.26 |
-| Los Angeles Clippers   |    18 | P    | 10 |  8 | 0.556 |       2.60 |
-| Portland Trail Blazers |    19 | NW   | 10 |  9 | 0.526 |       1.37 |
-| Minnesota Timberwolves |    18 | NW   |  9 |  9 | 0.500 |       2.95 |
-| Denver Nuggets         |    18 | NW   |  9 |  9 | 0.500 |     \-0.14 |
-| Los Angeles Lakers     |    20 | P    | 10 | 10 | 0.500 |     \-3.09 |
-| Memphis Grizzlies      |    18 | SW   |  9 |  9 | 0.500 |     \-5.44 |
-| Sacramento Kings       |    19 | P    |  7 | 12 | 0.368 |     \-2.21 |
-| Oklahoma City Thunder  |    18 | NW   |  6 | 12 | 0.333 |     \-7.41 |
-| San Antonio Spurs      |    17 | SW   |  4 | 13 | 0.235 |     \-3.61 |
-| New Orleans Pelicans   |    20 | SW   |  4 | 16 | 0.200 |     \-7.58 |
+| Los Angeles Clippers   |    19 | P    | 11 |  8 | 0.579 |       3.04 |
+| Portland Trail Blazers |    20 | NW   | 10 | 10 | 0.500 |       0.52 |
+| Los Angeles Lakers     |    21 | P    | 10 | 11 | 0.476 |     \-3.10 |
+| Minnesota Timberwolves |    19 | NW   |  9 | 10 | 0.474 |       1.86 |
+| Denver Nuggets         |    19 | NW   |  9 | 10 | 0.474 |     \-0.74 |
+| Memphis Grizzlies      |    19 | SW   |  9 | 10 | 0.474 |     \-6.84 |
+| Sacramento Kings       |    20 | P    |  8 | 12 | 0.400 |     \-1.93 |
+| Oklahoma City Thunder  |    19 | NW   |  6 | 13 | 0.316 |     \-7.13 |
+| San Antonio Spurs      |    18 | SW   |  5 | 13 | 0.278 |     \-2.95 |
+| New Orleans Pelicans   |    21 | SW   |  5 | 16 | 0.238 |     \-7.17 |
 | Houston Rockets        |    18 | SW   |  2 | 16 | 0.111 |    \-10.20 |
 
 ### Individual Stats
@@ -55,19 +55,19 @@ Reference](https://www.basketball-reference.com/).
 
 | player                | tm  | pts |  g |  ppg |
 | :-------------------- | :-- | --: | -: | ---: |
-| Stephen Curry         | GSW | 479 | 17 | 28.2 |
+| Stephen Curry         | GSW | 511 | 18 | 28.4 |
 | Kevin Durant          | BRK | 505 | 18 | 28.1 |
-| Giannis Antetokounmpo | MIL | 490 | 18 | 27.2 |
-| Paul George           | LAC | 475 | 18 | 26.4 |
+| Giannis Antetokounmpo | MIL | 514 | 19 | 27.1 |
 | Nikola Jokić          | DEN | 369 | 14 | 26.4 |
+| Zach LaVine           | CHI | 516 | 20 | 25.8 |
 
 #### VORP Leaders
 
 | player                | tm  | vorp |
 | :-------------------- | :-- | ---: |
+| Giannis Antetokounmpo | MIL |  2.0 |
 | Nikola Jokić          | DEN |  2.0 |
-| Giannis Antetokounmpo | MIL |  1.9 |
-| Stephen Curry         | GSW |  1.7 |
+| Stephen Curry         | GSW |  1.8 |
 | Jimmy Butler          | MIA |  1.5 |
 | Kevin Durant          | BRK |  1.5 |
 
