@@ -5,7 +5,7 @@ Doing some analysis and visualization of NBA data, for fun.
 Data, so far, are gathered from the wonderful [Basketball
 Reference](https://www.basketball-reference.com/).
 
-## Data as of 06:48AM December 07, 2021
+## Data as of 06:43AM December 08, 2021
 
 ### Team Standings
 
@@ -13,17 +13,17 @@ Reference](https://www.basketball-reference.com/).
 
 | Team                | Games | Div. |  W |  L |   W/L | Net Rating |
 | :------------------ | ----: | :--- | -: | -: | ----: | ---------: |
-| Brooklyn Nets       |    23 | A    | 16 |  7 | 0.696 |       3.88 |
+| Brooklyn Nets       |    24 | A    | 17 |  7 | 0.708 |       3.86 |
 | Chicago Bulls       |    25 | C    | 17 |  8 | 0.680 |       4.69 |
 | Milwaukee Bucks     |    25 | C    | 16 |  9 | 0.640 |       4.26 |
 | Miami Heat          |    25 | SE   | 14 | 11 | 0.560 |       2.44 |
 | Washington Wizards  |    25 | SE   | 14 | 11 | 0.560 |     \-1.10 |
-| Boston Celtics      |    24 | A    | 13 | 11 | 0.542 |       2.44 |
 | Philadelphia 76ers  |    24 | A    | 13 | 11 | 0.542 |       1.20 |
 | Charlotte Hornets   |    26 | SE   | 14 | 12 | 0.538 |     \-0.34 |
 | Atlanta Hawks       |    25 | SE   | 13 | 12 | 0.520 |       2.60 |
 | Cleveland Cavaliers |    25 | C    | 13 | 12 | 0.520 |       2.31 |
-| New York Knicks     |    23 | A    | 11 | 12 | 0.478 |     \-0.80 |
+| Boston Celtics      |    25 | A    | 13 | 12 | 0.520 |       1.73 |
+| New York Knicks     |    24 | A    | 12 | 12 | 0.500 |     \-0.23 |
 | Toronto Raptors     |    24 | A    | 11 | 13 | 0.458 |     \-0.29 |
 | Indiana Pacers      |    26 | C    | 10 | 16 | 0.385 |       0.92 |
 | Orlando Magic       |    25 | SE   |  5 | 20 | 0.200 |    \-10.76 |
@@ -38,13 +38,13 @@ Reference](https://www.basketball-reference.com/).
 | Utah Jazz              |    23 | NW   | 16 |  7 | 0.696 |       9.47 |
 | Memphis Grizzlies      |    24 | SW   | 14 | 10 | 0.583 |       0.07 |
 | Los Angeles Clippers   |    25 | P    | 13 | 12 | 0.520 |       0.96 |
-| Dallas Mavericks       |    22 | SW   | 11 | 11 | 0.500 |     \-1.57 |
-| Los Angeles Lakers     |    24 | P    | 12 | 12 | 0.500 |     \-1.68 |
+| Los Angeles Lakers     |    25 | P    | 13 | 12 | 0.520 |     \-1.01 |
 | Denver Nuggets         |    23 | NW   | 11 | 12 | 0.478 |     \-0.25 |
+| Dallas Mavericks       |    23 | SW   | 11 | 12 | 0.478 |     \-1.64 |
 | Minnesota Timberwolves |    24 | NW   | 11 | 13 | 0.458 |       0.55 |
 | Portland Trail Blazers |    25 | NW   | 11 | 14 | 0.440 |     \-2.67 |
 | Sacramento Kings       |    24 | P    | 10 | 14 | 0.417 |     \-3.13 |
-| San Antonio Spurs      |    22 | SW   |  8 | 14 | 0.364 |     \-0.09 |
+| San Antonio Spurs      |    23 | SW   |  8 | 15 | 0.348 |     \-0.65 |
 | Houston Rockets        |    23 | SW   |  7 | 16 | 0.304 |     \-6.56 |
 | Oklahoma City Thunder  |    23 | NW   |  7 | 16 | 0.304 |     \-9.45 |
 | New Orleans Pelicans   |    26 | SW   |  7 | 19 | 0.269 |     \-7.00 |
@@ -55,7 +55,7 @@ Reference](https://www.basketball-reference.com/).
 
 | player                | tm  | pts |  g |  ppg |
 | :-------------------- | :-- | --: | -: | ---: |
-| Kevin Durant          | BRK | 629 | 22 | 28.6 |
+| Kevin Durant          | BRK | 653 | 23 | 28.4 |
 | Stephen Curry         | GSW | 637 | 23 | 27.7 |
 | Giannis Antetokounmpo | MIL | 607 | 22 | 27.6 |
 | DeMar DeRozan         | CHI | 633 | 24 | 26.4 |
