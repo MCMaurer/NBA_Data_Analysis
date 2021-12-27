@@ -5,7 +5,7 @@ Doing some analysis and visualization of NBA data, for fun.
 Data, so far, are gathered from the wonderful [Basketball
 Reference](https://www.basketball-reference.com/).
 
-## Data as of 06:43AM December 26, 2021
+## Data as of 06:47AM December 27, 2021
 
 ### Team Standings
 
@@ -14,20 +14,20 @@ Reference](https://www.basketball-reference.com/).
 | Team                | Games | Div. |  W |  L |   W/L | Net Rating |
 | :------------------ | ----: | :--- | -: | -: | ----: | ---------: |
 | Brooklyn Nets       |    31 | A    | 22 |  9 | 0.710 |       3.62 |
-| Chicago Bulls       |    29 | C    | 19 | 10 | 0.655 |       2.97 |
+| Chicago Bulls       |    30 | C    | 20 | 10 | 0.667 |       3.15 |
 | Milwaukee Bucks     |    35 | C    | 22 | 13 | 0.629 |       3.47 |
-| Miami Heat          |    33 | SE   | 20 | 13 | 0.606 |       3.79 |
-| Cleveland Cavaliers |    32 | C    | 19 | 13 | 0.594 |       5.62 |
-| Washington Wizards  |    32 | SE   | 17 | 15 | 0.531 |     \-2.43 |
-| Philadelphia 76ers  |    32 | A    | 16 | 16 | 0.500 |     \-0.88 |
+| Miami Heat          |    34 | SE   | 21 | 13 | 0.618 |       4.01 |
+| Cleveland Cavaliers |    33 | C    | 20 | 13 | 0.606 |       6.72 |
+| Philadelphia 76ers  |    33 | A    | 17 | 16 | 0.515 |     \-0.18 |
+| Washington Wizards  |    33 | SE   | 17 | 16 | 0.515 |     \-3.03 |
 | Charlotte Hornets   |    34 | SE   | 17 | 17 | 0.500 |     \-1.89 |
 | Boston Celtics      |    33 | A    | 16 | 17 | 0.485 |       1.14 |
-| Toronto Raptors     |    29 | A    | 14 | 15 | 0.483 |       1.25 |
 | Atlanta Hawks       |    32 | SE   | 15 | 17 | 0.469 |       0.83 |
+| Toronto Raptors     |    30 | A    | 14 | 16 | 0.467 |     \-0.19 |
 | New York Knicks     |    33 | A    | 15 | 18 | 0.455 |     \-0.80 |
-| Indiana Pacers      |    33 | C    | 14 | 19 | 0.424 |       1.02 |
-| Orlando Magic       |    33 | SE   |  7 | 26 | 0.212 |     \-9.45 |
-| Detroit Pistons     |    31 | C    |  5 | 26 | 0.161 |     \-9.11 |
+| Indiana Pacers      |    34 | C    | 14 | 20 | 0.412 |       0.74 |
+| Orlando Magic       |    34 | SE   |  7 | 27 | 0.206 |     \-9.50 |
+| Detroit Pistons     |    32 | C    |  5 | 27 | 0.156 |     \-9.80 |
 
 #### Western Conference
 
@@ -36,17 +36,17 @@ Reference](https://www.basketball-reference.com/).
 | Golden State Warriors  |    33 | P    | 27 |  6 | 0.818 |      10.48 |
 | Phoenix Suns           |    32 | P    | 26 |  6 | 0.813 |       7.23 |
 | Utah Jazz              |    32 | NW   | 23 |  9 | 0.719 |      10.52 |
-| Memphis Grizzlies      |    33 | SW   | 19 | 14 | 0.576 |       1.83 |
-| Los Angeles Clippers   |    32 | P    | 17 | 15 | 0.531 |       0.51 |
-| Denver Nuggets         |    31 | NW   | 15 | 16 | 0.484 |     \-0.42 |
+| Memphis Grizzlies      |    34 | SW   | 20 | 14 | 0.588 |       2.51 |
+| Los Angeles Clippers   |    33 | P    | 17 | 16 | 0.515 |       0.40 |
+| Denver Nuggets         |    32 | NW   | 16 | 16 | 0.500 |     \-0.31 |
 | Los Angeles Lakers     |    34 | P    | 16 | 18 | 0.471 |     \-2.20 |
 | Dallas Mavericks       |    32 | SW   | 15 | 17 | 0.469 |     \-0.09 |
 | Minnesota Timberwolves |    32 | NW   | 15 | 17 | 0.469 |     \-0.41 |
-| San Antonio Spurs      |    31 | SW   | 13 | 18 | 0.419 |       0.86 |
+| San Antonio Spurs      |    32 | SW   | 14 | 18 | 0.438 |       1.81 |
 | Portland Trail Blazers |    32 | NW   | 13 | 19 | 0.406 |     \-3.03 |
-| Sacramento Kings       |    33 | P    | 13 | 20 | 0.394 |     \-3.91 |
-| New Orleans Pelicans   |    33 | SW   | 12 | 21 | 0.364 |     \-4.78 |
-| Oklahoma City Thunder  |    31 | NW   | 11 | 20 | 0.355 |     \-8.23 |
+| Sacramento Kings       |    34 | P    | 13 | 21 | 0.382 |     \-4.53 |
+| Oklahoma City Thunder  |    32 | NW   | 12 | 20 | 0.375 |     \-7.82 |
+| New Orleans Pelicans   |    34 | SW   | 12 | 22 | 0.353 |     \-4.78 |
 | Houston Rockets        |    33 | SW   | 10 | 23 | 0.303 |     \-7.35 |
 
 ### Individual Stats
@@ -65,7 +65,7 @@ Reference](https://www.basketball-reference.com/).
 
 | player                | tm  | vorp |
 | :-------------------- | :-- | ---: |
-| Nikola Jokić          | DEN |  3.4 |
+| Nikola Jokić          | DEN |  3.5 |
 | Stephen Curry         | GSW |  2.8 |
 | Giannis Antetokounmpo | MIL |  2.7 |
 | Kevin Durant          | BRK |  2.3 |
