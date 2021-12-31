@@ -5,7 +5,7 @@ Doing some analysis and visualization of NBA data, for fun.
 Data, so far, are gathered from the wonderful [Basketball
 Reference](https://www.basketball-reference.com/).
 
-## Data as of 06:44AM December 30, 2021
+## Data as of 06:44AM December 31, 2021
 
 ### Team Standings
 
@@ -13,20 +13,20 @@ Reference](https://www.basketball-reference.com/).
 
 | Team                | Games | Div. |  W |  L |   W/L | Net Rating |
 | :------------------ | ----: | :--- | -: | -: | ----: | ---------: |
-| Brooklyn Nets       |    32 | A    | 23 |  9 | 0.719 |       4.01 |
+| Brooklyn Nets       |    33 | A    | 23 | 10 | 0.697 |       3.64 |
 | Chicago Bulls       |    32 | C    | 22 | 10 | 0.688 |       3.77 |
-| Milwaukee Bucks     |    36 | C    | 23 | 13 | 0.639 |       3.86 |
+| Milwaukee Bucks     |    37 | C    | 24 | 13 | 0.649 |       4.23 |
 | Miami Heat          |    35 | SE   | 22 | 13 | 0.629 |       4.11 |
-| Cleveland Cavaliers |    34 | C    | 20 | 14 | 0.588 |       6.40 |
-| Philadelphia 76ers  |    34 | A    | 18 | 16 | 0.529 |     \-0.02 |
+| Cleveland Cavaliers |    35 | C    | 20 | 15 | 0.571 |       5.70 |
+| Philadelphia 76ers  |    35 | A    | 19 | 16 | 0.543 |       0.22 |
 | Charlotte Hornets   |    36 | SE   | 19 | 17 | 0.528 |     \-0.91 |
-| Washington Wizards  |    34 | SE   | 17 | 17 | 0.500 |     \-3.16 |
+| Washington Wizards  |    35 | SE   | 18 | 17 | 0.514 |     \-2.55 |
 | New York Knicks     |    35 | A    | 17 | 18 | 0.486 |     \-0.24 |
 | Boston Celtics      |    35 | A    | 16 | 19 | 0.457 |       0.64 |
 | Toronto Raptors     |    31 | A    | 14 | 17 | 0.452 |     \-0.36 |
 | Atlanta Hawks       |    34 | SE   | 15 | 19 | 0.441 |       0.01 |
 | Indiana Pacers      |    35 | C    | 14 | 21 | 0.400 |       0.50 |
-| Orlando Magic       |    35 | SE   |  7 | 28 | 0.200 |     \-9.73 |
+| Orlando Magic       |    36 | SE   |  7 | 29 | 0.194 |     \-9.95 |
 | Detroit Pistons     |    33 | C    |  5 | 28 | 0.152 |     \-9.79 |
 
 #### Western Conference
@@ -55,10 +55,10 @@ Reference](https://www.basketball-reference.com/).
 
 | player                | tm  | pts |  g |  ppg |
 | :-------------------- | :-- | --: | -: | ---: |
-| Kevin Durant          | BRK | 803 | 27 | 29.7 |
+| Kevin Durant          | BRK | 836 | 28 | 29.9 |
 | LeBron James          | LAL | 671 | 24 | 28.0 |
 | Stephen Curry         | GSW | 887 | 32 | 27.7 |
-| Giannis Antetokounmpo | MIL | 767 | 28 | 27.4 |
+| Giannis Antetokounmpo | MIL | 800 | 29 | 27.6 |
 | Trae Young            | ATL | 846 | 31 | 27.3 |
 
 #### VORP Leaders
@@ -66,9 +66,9 @@ Reference](https://www.basketball-reference.com/).
 | player                | tm  | vorp |
 | :-------------------- | :-- | ---: |
 | Nikola Jokić          | DEN |  3.5 |
-| Giannis Antetokounmpo | MIL |  2.8 |
+| Giannis Antetokounmpo | MIL |  2.9 |
 | Stephen Curry         | GSW |  2.8 |
-| Kevin Durant          | BRK |  2.3 |
+| Kevin Durant          | BRK |  2.4 |
 | LeBron James          | LAL |  2.2 |
 
 #### Advanced Stat Leaders
