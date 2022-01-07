@@ -5,7 +5,7 @@ Doing some analysis and visualization of NBA data, for fun.
 Data, so far, are gathered from the wonderful [Basketball
 Reference](https://www.basketball-reference.com/).
 
-## Data as of 06:46AM January 06, 2022
+## Data as of 06:48AM January 07, 2022
 
 ### Team Standings
 
@@ -22,31 +22,31 @@ Reference](https://www.basketball-reference.com/).
 | Toronto Raptors     |    35 | A    | 18 | 17 | 0.514 |       1.22 |
 | Charlotte Hornets   |    39 | SE   | 20 | 19 | 0.513 |     \-1.01 |
 | Washington Wizards  |    38 | SE   | 19 | 19 | 0.500 |     \-2.37 |
-| Boston Celtics      |    38 | A    | 18 | 20 | 0.474 |       1.06 |
-| New York Knicks     |    38 | A    | 18 | 20 | 0.474 |     \-0.74 |
+| New York Knicks     |    39 | A    | 19 | 20 | 0.487 |     \-0.64 |
+| Boston Celtics      |    39 | A    | 18 | 21 | 0.462 |       0.95 |
 | Atlanta Hawks       |    37 | SE   | 17 | 20 | 0.459 |       0.12 |
 | Indiana Pacers      |    39 | C    | 14 | 25 | 0.359 |     \-0.21 |
-| Detroit Pistons     |    36 | C    |  7 | 29 | 0.194 |     \-9.48 |
+| Detroit Pistons     |    37 | C    |  7 | 30 | 0.189 |    \-10.02 |
 | Orlando Magic       |    39 | SE   |  7 | 32 | 0.179 |     \-9.66 |
 
 #### Western Conference
 
 | Team                   | Games | Div. |  W |  L |   W/L | Net Rating |
 | :--------------------- | ----: | :--- | -: | -: | ----: | ---------: |
-| Golden State Warriors  |    37 | P    | 29 |  8 | 0.784 |       9.15 |
-| Phoenix Suns           |    37 | P    | 29 |  8 | 0.784 |       7.54 |
+| Phoenix Suns           |    38 | P    | 30 |  8 | 0.789 |       7.80 |
+| Golden State Warriors  |    38 | P    | 29 |  9 | 0.763 |       8.78 |
 | Utah Jazz              |    38 | NW   | 28 | 10 | 0.737 |      10.02 |
-| Memphis Grizzlies      |    39 | SW   | 25 | 14 | 0.641 |       3.17 |
+| Memphis Grizzlies      |    40 | SW   | 26 | 14 | 0.650 |       3.82 |
 | Dallas Mavericks       |    38 | SW   | 20 | 18 | 0.526 |       1.87 |
 | Los Angeles Lakers     |    39 | P    | 20 | 19 | 0.513 |     \-0.62 |
-| Los Angeles Clippers   |    38 | P    | 19 | 19 | 0.500 |     \-0.40 |
 | Denver Nuggets         |    36 | NW   | 18 | 18 | 0.500 |     \-0.41 |
+| Los Angeles Clippers   |    39 | P    | 19 | 20 | 0.487 |     \-0.84 |
 | Minnesota Timberwolves |    38 | NW   | 18 | 20 | 0.474 |     \-0.20 |
 | San Antonio Spurs      |    37 | SW   | 15 | 22 | 0.405 |       0.44 |
 | Sacramento Kings       |    40 | P    | 16 | 24 | 0.400 |     \-4.41 |
 | Portland Trail Blazers |    37 | NW   | 14 | 23 | 0.378 |     \-4.40 |
+| New Orleans Pelicans   |    39 | SW   | 14 | 25 | 0.359 |     \-5.12 |
 | Oklahoma City Thunder  |    37 | NW   | 13 | 24 | 0.351 |     \-7.47 |
-| New Orleans Pelicans   |    38 | SW   | 13 | 25 | 0.342 |     \-5.38 |
 | Houston Rockets        |    39 | SW   | 11 | 28 | 0.282 |     \-8.09 |
 
 ### Individual Stats
