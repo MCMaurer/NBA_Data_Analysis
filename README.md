@@ -5,7 +5,7 @@ Doing some analysis and visualization of NBA data, for fun.
 Data, so far, are gathered from the wonderful [Basketball
 Reference](https://www.basketball-reference.com/).
 
-## Data as of 06:48AM January 07, 2022
+## Data as of 06:44AM January 08, 2022
 
 ### Team Standings
 
@@ -13,18 +13,18 @@ Reference](https://www.basketball-reference.com/).
 
 | Team                | Games | Div. |  W |  L |   W/L | Net Rating |
 | :------------------ | ----: | :--- | -: | -: | ----: | ---------: |
-| Chicago Bulls       |    35 | C    | 25 | 10 | 0.714 |       3.65 |
-| Brooklyn Nets       |    36 | A    | 24 | 12 | 0.667 |       3.04 |
-| Milwaukee Bucks     |    40 | C    | 25 | 15 | 0.625 |       4.07 |
+| Chicago Bulls       |    36 | C    | 26 | 10 | 0.722 |       3.76 |
+| Brooklyn Nets       |    37 | A    | 24 | 13 | 0.649 |       2.62 |
+| Milwaukee Bucks     |    41 | C    | 26 | 15 | 0.634 |       4.28 |
 | Miami Heat          |    39 | SE   | 24 | 15 | 0.615 |       3.89 |
-| Philadelphia 76ers  |    37 | A    | 21 | 16 | 0.568 |       1.01 |
-| Cleveland Cavaliers |    38 | C    | 21 | 17 | 0.553 |       5.17 |
-| Toronto Raptors     |    35 | A    | 18 | 17 | 0.514 |       1.22 |
+| Philadelphia 76ers  |    38 | A    | 22 | 16 | 0.579 |       1.49 |
+| Cleveland Cavaliers |    39 | C    | 22 | 17 | 0.564 |       5.40 |
+| Toronto Raptors     |    36 | A    | 19 | 17 | 0.528 |       1.58 |
 | Charlotte Hornets   |    39 | SE   | 20 | 19 | 0.513 |     \-1.01 |
-| Washington Wizards  |    38 | SE   | 19 | 19 | 0.500 |     \-2.37 |
 | New York Knicks     |    39 | A    | 19 | 20 | 0.487 |     \-0.64 |
+| Washington Wizards  |    39 | SE   | 19 | 20 | 0.487 |     \-2.51 |
 | Boston Celtics      |    39 | A    | 18 | 21 | 0.462 |       0.95 |
-| Atlanta Hawks       |    37 | SE   | 17 | 20 | 0.459 |       0.12 |
+| Atlanta Hawks       |    38 | SE   | 17 | 21 | 0.447 |     \-0.27 |
 | Indiana Pacers      |    39 | C    | 14 | 25 | 0.359 |     \-0.21 |
 | Detroit Pistons     |    37 | C    |  7 | 30 | 0.189 |    \-10.02 |
 | Orlando Magic       |    39 | SE   |  7 | 32 | 0.179 |     \-9.66 |
@@ -35,19 +35,19 @@ Reference](https://www.basketball-reference.com/).
 | :--------------------- | ----: | :--- | -: | -: | ----: | ---------: |
 | Phoenix Suns           |    38 | P    | 30 |  8 | 0.789 |       7.80 |
 | Golden State Warriors  |    38 | P    | 29 |  9 | 0.763 |       8.78 |
-| Utah Jazz              |    38 | NW   | 28 | 10 | 0.737 |      10.02 |
+| Utah Jazz              |    39 | NW   | 28 | 11 | 0.718 |       9.40 |
 | Memphis Grizzlies      |    40 | SW   | 26 | 14 | 0.650 |       3.82 |
-| Dallas Mavericks       |    38 | SW   | 20 | 18 | 0.526 |       1.87 |
-| Los Angeles Lakers     |    39 | P    | 20 | 19 | 0.513 |     \-0.62 |
-| Denver Nuggets         |    36 | NW   | 18 | 18 | 0.500 |     \-0.41 |
+| Dallas Mavericks       |    39 | SW   | 21 | 18 | 0.538 |       2.41 |
+| Los Angeles Lakers     |    40 | P    | 21 | 19 | 0.525 |     \-0.23 |
+| Denver Nuggets         |    37 | NW   | 19 | 18 | 0.514 |     \-0.13 |
+| Minnesota Timberwolves |    39 | NW   | 19 | 20 | 0.487 |       0.54 |
 | Los Angeles Clippers   |    39 | P    | 19 | 20 | 0.487 |     \-0.84 |
-| Minnesota Timberwolves |    38 | NW   | 18 | 20 | 0.474 |     \-0.20 |
-| San Antonio Spurs      |    37 | SW   | 15 | 22 | 0.405 |       0.44 |
-| Sacramento Kings       |    40 | P    | 16 | 24 | 0.400 |     \-4.41 |
-| Portland Trail Blazers |    37 | NW   | 14 | 23 | 0.378 |     \-4.40 |
+| San Antonio Spurs      |    38 | SW   | 15 | 23 | 0.395 |     \-0.09 |
+| Sacramento Kings       |    41 | P    | 16 | 25 | 0.390 |     \-4.56 |
+| Portland Trail Blazers |    38 | NW   | 14 | 24 | 0.368 |     \-4.66 |
 | New Orleans Pelicans   |    39 | SW   | 14 | 25 | 0.359 |     \-5.12 |
-| Oklahoma City Thunder  |    37 | NW   | 13 | 24 | 0.351 |     \-7.47 |
-| Houston Rockets        |    39 | SW   | 11 | 28 | 0.282 |     \-8.09 |
+| Oklahoma City Thunder  |    38 | NW   | 13 | 25 | 0.342 |     \-8.03 |
+| Houston Rockets        |    40 | SW   | 11 | 29 | 0.275 |     \-8.47 |
 
 ### Individual Stats
 
@@ -55,21 +55,21 @@ Reference](https://www.basketball-reference.com/).
 
 | player                | tm  | pts |  g |  ppg |
 | :-------------------- | :-- | --: | -: | ---: |
-| Kevin Durant          | BRK | 929 | 31 | 30.0 |
-| LeBron James          | LAL | 771 | 27 | 28.6 |
-| Trae Young            | ATL | 937 | 33 | 28.4 |
-| Giannis Antetokounmpo | MIL | 866 | 31 | 27.9 |
-| DeMar DeRozan         | CHI | 861 | 32 | 26.9 |
+| Kevin Durant          | BRK | 958 | 32 | 29.9 |
+| LeBron James          | LAL | 803 | 28 | 28.7 |
+| Trae Young            | ATL | 962 | 34 | 28.3 |
+| Giannis Antetokounmpo | MIL | 897 | 32 | 28.0 |
+| Stephen Curry         | GSW | 938 | 35 | 26.8 |
 
 #### VORP Leaders
 
 | player                | tm  | vorp |
 | :-------------------- | :-- | ---: |
-| Nikola Jokić          | DEN |  3.9 |
-| Giannis Antetokounmpo | MIL |  3.1 |
+| Nikola Jokić          | DEN |  4.1 |
+| Giannis Antetokounmpo | MIL |  3.3 |
 | Stephen Curry         | GSW |  2.7 |
-| Kevin Durant          | BRK |  2.6 |
-| LeBron James          | LAL |  2.6 |
+| Kevin Durant          | BRK |  2.7 |
+| LeBron James          | LAL |  2.7 |
 
 #### Advanced Stat Leaders
 
