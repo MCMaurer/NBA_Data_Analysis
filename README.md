@@ -5,7 +5,7 @@ Doing some analysis and visualization of NBA data, for fun.
 Data, so far, are gathered from the wonderful [Basketball
 Reference](https://www.basketball-reference.com/).
 
-## Data as of 06:45AM January 20, 2022
+## Data as of 06:44AM January 21, 2022
 
 ### Team Standings
 
@@ -23,9 +23,9 @@ Reference](https://www.basketball-reference.com/).
 | Washington Wizards  |    45 | SE   | 23 | 22 | 0.511 |     \-1.60 |
 | Boston Celtics      |    46 | A    | 23 | 23 | 0.500 |       1.79 |
 | Toronto Raptors     |    42 | A    | 21 | 21 | 0.500 |       0.87 |
-| New York Knicks     |    45 | A    | 22 | 23 | 0.489 |     \-0.36 |
+| New York Knicks     |    46 | A    | 22 | 24 | 0.478 |     \-0.62 |
 | Atlanta Hawks       |    44 | SE   | 19 | 25 | 0.432 |     \-1.05 |
-| Indiana Pacers      |    45 | C    | 16 | 29 | 0.356 |     \-0.81 |
+| Indiana Pacers      |    46 | C    | 17 | 29 | 0.370 |     \-0.72 |
 | Detroit Pistons     |    44 | C    | 11 | 33 | 0.250 |     \-9.63 |
 | Orlando Magic       |    46 | SE   |  8 | 38 | 0.174 |     \-9.23 |
 
@@ -33,11 +33,11 @@ Reference](https://www.basketball-reference.com/).
 
 | Team                   | Games | Div. |  W |  L |   W/L | Net Rating |
 | :--------------------- | ----: | :--- | -: | -: | ----: | ---------: |
-| Phoenix Suns           |    43 | P    | 34 |  9 | 0.791 |       7.83 |
-| Golden State Warriors  |    44 | P    | 32 | 12 | 0.727 |       8.28 |
+| Phoenix Suns           |    44 | P    | 35 |  9 | 0.795 |       7.84 |
+| Golden State Warriors  |    45 | P    | 32 | 13 | 0.711 |       8.01 |
 | Memphis Grizzlies      |    47 | SW   | 31 | 16 | 0.660 |       3.50 |
 | Utah Jazz              |    45 | NW   | 29 | 16 | 0.644 |       7.43 |
-| Dallas Mavericks       |    45 | SW   | 26 | 19 | 0.578 |       3.02 |
+| Dallas Mavericks       |    46 | SW   | 26 | 20 | 0.565 |       2.77 |
 | Denver Nuggets         |    43 | NW   | 23 | 20 | 0.535 |       1.12 |
 | Minnesota Timberwolves |    45 | NW   | 22 | 23 | 0.489 |       0.81 |
 | Los Angeles Lakers     |    45 | P    | 22 | 23 | 0.489 |     \-1.50 |
@@ -45,7 +45,7 @@ Reference](https://www.basketball-reference.com/).
 | Portland Trail Blazers |    44 | NW   | 18 | 26 | 0.409 |     \-4.23 |
 | Sacramento Kings       |    47 | P    | 18 | 29 | 0.383 |     \-4.06 |
 | San Antonio Spurs      |    45 | SW   | 17 | 28 | 0.378 |     \-0.31 |
-| New Orleans Pelicans   |    44 | SW   | 16 | 28 | 0.364 |     \-4.66 |
+| New Orleans Pelicans   |    45 | SW   | 17 | 28 | 0.378 |     \-4.29 |
 | Oklahoma City Thunder  |    44 | NW   | 14 | 30 | 0.318 |     \-7.30 |
 | Houston Rockets        |    46 | SW   | 14 | 32 | 0.304 |     \-8.09 |
 
@@ -67,8 +67,8 @@ Reference](https://www.basketball-reference.com/).
 | :-------------------- | :-- | ---: |
 | Nikola Jokić          | DEN |  5.0 |
 | Giannis Antetokounmpo | MIL |  3.9 |
+| Stephen Curry         | GSW |  3.2 |
 | LeBron James          | LAL |  3.2 |
-| Stephen Curry         | GSW |  3.1 |
 | Kevin Durant          | BRK |  3.1 |
 
 #### Advanced Stat Leaders
