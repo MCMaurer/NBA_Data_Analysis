@@ -5,7 +5,7 @@ Doing some analysis and visualization of NBA data, for fun.
 Data, so far, are gathered from the wonderful [Basketball
 Reference](https://www.basketball-reference.com/).
 
-## Data as of 06:41AM January 22, 2022
+## Data as of 06:45AM January 23, 2022
 
 ### Team Standings
 
@@ -16,8 +16,8 @@ Reference](https://www.basketball-reference.com/).
 | Brooklyn Nets       |    45 | A    | 29 | 16 | 0.644 |       2.72 |
 | Chicago Bulls       |    44 | C    | 28 | 16 | 0.636 |       2.08 |
 | Miami Heat          |    46 | SE   | 29 | 17 | 0.630 |       4.59 |
-| Milwaukee Bucks     |    48 | C    | 29 | 19 | 0.604 |       3.80 |
-| Cleveland Cavaliers |    46 | C    | 27 | 19 | 0.587 |       4.82 |
+| Milwaukee Bucks     |    49 | C    | 30 | 19 | 0.612 |       3.85 |
+| Cleveland Cavaliers |    47 | C    | 28 | 19 | 0.596 |       4.87 |
 | Philadelphia 76ers  |    45 | A    | 26 | 19 | 0.578 |       1.84 |
 | Charlotte Hornets   |    46 | SE   | 26 | 20 | 0.565 |       0.45 |
 | Toronto Raptors     |    43 | A    | 22 | 21 | 0.512 |       0.95 |
@@ -25,7 +25,7 @@ Reference](https://www.basketball-reference.com/).
 | Boston Celtics      |    47 | A    | 23 | 24 | 0.489 |       1.66 |
 | New York Knicks     |    46 | A    | 22 | 24 | 0.478 |     \-0.62 |
 | Atlanta Hawks       |    45 | SE   | 20 | 25 | 0.444 |     \-0.98 |
-| Indiana Pacers      |    46 | C    | 17 | 29 | 0.370 |     \-0.72 |
+| Indiana Pacers      |    47 | C    | 17 | 30 | 0.362 |     \-0.92 |
 | Detroit Pistons     |    45 | C    | 11 | 34 | 0.244 |     \-9.66 |
 | Orlando Magic       |    47 | SE   |  8 | 39 | 0.170 |     \-9.26 |
 
@@ -33,7 +33,7 @@ Reference](https://www.basketball-reference.com/).
 
 | Team                   | Games | Div. |  W |  L |   W/L | Net Rating |
 | :--------------------- | ----: | :--- | -: | -: | ----: | ---------: |
-| Phoenix Suns           |    44 | P    | 35 |  9 | 0.795 |       7.84 |
+| Phoenix Suns           |    45 | P    | 36 |  9 | 0.800 |       7.89 |
 | Golden State Warriors  |    46 | P    | 33 | 13 | 0.717 |       7.88 |
 | Memphis Grizzlies      |    48 | SW   | 32 | 16 | 0.667 |       3.51 |
 | Utah Jazz              |    46 | NW   | 30 | 16 | 0.652 |       7.50 |
@@ -43,10 +43,10 @@ Reference](https://www.basketball-reference.com/).
 | Minnesota Timberwolves |    45 | NW   | 22 | 23 | 0.489 |       0.81 |
 | Los Angeles Clippers   |    47 | P    | 23 | 24 | 0.489 |     \-1.24 |
 | Portland Trail Blazers |    45 | NW   | 19 | 26 | 0.422 |     \-4.04 |
-| Sacramento Kings       |    47 | P    | 18 | 29 | 0.383 |     \-4.06 |
 | New Orleans Pelicans   |    45 | SW   | 17 | 28 | 0.378 |     \-4.29 |
+| Sacramento Kings       |    48 | P    | 18 | 30 | 0.375 |     \-4.10 |
 | San Antonio Spurs      |    46 | SW   | 17 | 29 | 0.370 |     \-0.65 |
-| Oklahoma City Thunder  |    45 | NW   | 14 | 31 | 0.311 |     \-7.65 |
+| Oklahoma City Thunder  |    46 | NW   | 14 | 32 | 0.304 |     \-7.64 |
 | Houston Rockets        |    47 | SW   | 14 | 33 | 0.298 |     \-7.96 |
 
 ### Individual Stats
