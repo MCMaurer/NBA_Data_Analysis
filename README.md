@@ -5,7 +5,7 @@ Doing some analysis and visualization of NBA data, for fun.
 Data, so far, are gathered from the wonderful [Basketball
 Reference](https://www.basketball-reference.com/).
 
-## Data as of 06:43AM February 07, 2022
+## Data as of 06:43AM February 08, 2022
 
 ### Team Standings
 
@@ -13,18 +13,18 @@ Reference](https://www.basketball-reference.com/).
 
 | Team                | Games | Div. |  W |  L |   W/L | Net Rating |
 | :------------------ | ----: | :--- | -: | -: | ----: | ---------: |
-| Miami Heat          |    54 | SE   | 34 | 20 | 0.630 |       4.37 |
-| Chicago Bulls       |    53 | C    | 33 | 20 | 0.623 |       1.60 |
+| Miami Heat          |    55 | SE   | 35 | 20 | 0.636 |       4.69 |
 | Milwaukee Bucks     |    55 | C    | 34 | 21 | 0.618 |       3.93 |
 | Cleveland Cavaliers |    54 | C    | 33 | 21 | 0.611 |       4.53 |
+| Chicago Bulls       |    54 | C    | 33 | 21 | 0.611 |       1.51 |
 | Philadelphia 76ers  |    53 | A    | 32 | 21 | 0.604 |       2.29 |
-| Toronto Raptors     |    51 | A    | 28 | 23 | 0.549 |       1.36 |
+| Toronto Raptors     |    52 | A    | 29 | 23 | 0.558 |       1.63 |
 | Brooklyn Nets       |    53 | A    | 29 | 24 | 0.547 |       0.45 |
 | Boston Celtics      |    55 | A    | 30 | 25 | 0.545 |       4.32 |
-| Charlotte Hornets   |    54 | SE   | 28 | 26 | 0.519 |     \-0.55 |
+| Charlotte Hornets   |    55 | SE   | 28 | 27 | 0.509 |     \-0.81 |
 | Atlanta Hawks       |    53 | SE   | 25 | 28 | 0.472 |       0.02 |
-| Washington Wizards  |    52 | SE   | 24 | 28 | 0.462 |     \-3.01 |
-| New York Knicks     |    53 | A    | 24 | 29 | 0.453 |     \-0.96 |
+| Washington Wizards  |    53 | SE   | 24 | 29 | 0.453 |     \-3.36 |
+| New York Knicks     |    54 | A    | 24 | 30 | 0.444 |     \-1.11 |
 | Indiana Pacers      |    55 | C    | 19 | 36 | 0.345 |     \-2.14 |
 | Detroit Pistons     |    53 | C    | 12 | 41 | 0.226 |     \-9.33 |
 | Orlando Magic       |    55 | SE   | 12 | 43 | 0.218 |     \-8.54 |
@@ -33,10 +33,10 @@ Reference](https://www.basketball-reference.com/).
 
 | Team                   | Games | Div. |  W |  L |   W/L | Net Rating |
 | :--------------------- | ----: | :--- | -: | -: | ----: | ---------: |
-| Phoenix Suns           |    52 | P    | 42 | 10 | 0.808 |       7.75 |
-| Golden State Warriors  |    53 | P    | 40 | 13 | 0.755 |       8.44 |
+| Phoenix Suns           |    53 | P    | 43 | 10 | 0.811 |       7.66 |
+| Golden State Warriors  |    54 | P    | 41 | 13 | 0.759 |       8.52 |
 | Memphis Grizzlies      |    55 | SW   | 37 | 18 | 0.673 |       4.06 |
-| Utah Jazz              |    53 | NW   | 32 | 21 | 0.604 |       6.14 |
+| Utah Jazz              |    54 | NW   | 33 | 21 | 0.611 |       6.20 |
 | Dallas Mavericks       |    54 | SW   | 31 | 23 | 0.574 |       3.00 |
 | Denver Nuggets         |    53 | NW   | 29 | 24 | 0.547 |       1.93 |
 | Minnesota Timberwolves |    53 | NW   | 28 | 25 | 0.528 |       1.69 |
@@ -46,7 +46,7 @@ Reference](https://www.basketball-reference.com/).
 | Portland Trail Blazers |    54 | NW   | 21 | 33 | 0.389 |     \-4.64 |
 | San Antonio Spurs      |    54 | SW   | 20 | 34 | 0.370 |     \-0.13 |
 | Sacramento Kings       |    55 | P    | 20 | 35 | 0.364 |     \-5.13 |
-| Oklahoma City Thunder  |    52 | NW   | 17 | 35 | 0.327 |     \-6.49 |
+| Oklahoma City Thunder  |    53 | NW   | 17 | 36 | 0.321 |     \-6.61 |
 | Houston Rockets        |    53 | SW   | 15 | 38 | 0.283 |     \-8.68 |
 
 ### Individual Stats
