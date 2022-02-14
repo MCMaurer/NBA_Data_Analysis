@@ -5,7 +5,7 @@ Doing some analysis and visualization of NBA data, for fun.
 Data, so far, are gathered from the wonderful [Basketball
 Reference](https://www.basketball-reference.com/).
 
-## Data as of 06:42AM February 13, 2022
+## Data as of 06:42AM February 14, 2022
 
 ### Team Standings
 
@@ -18,14 +18,14 @@ Reference](https://www.basketball-reference.com/).
 | Cleveland Cavaliers |    57 | C    | 35 | 22 | 0.614 |       4.46 |
 | Milwaukee Bucks     |    57 | C    | 35 | 22 | 0.614 |       3.63 |
 | Philadelphia 76ers  |    56 | A    | 34 | 22 | 0.607 |       2.51 |
+| Boston Celtics      |    58 | A    | 33 | 25 | 0.569 |       4.99 |
 | Toronto Raptors     |    55 | A    | 31 | 24 | 0.564 |       2.22 |
-| Boston Celtics      |    57 | A    | 32 | 25 | 0.561 |       4.90 |
 | Brooklyn Nets       |    56 | A    | 29 | 27 | 0.518 |     \-0.30 |
 | Charlotte Hornets   |    58 | SE   | 29 | 29 | 0.500 |     \-0.75 |
-| Atlanta Hawks       |    55 | SE   | 26 | 29 | 0.473 |       0.15 |
+| Atlanta Hawks       |    56 | SE   | 26 | 30 | 0.464 |     \-0.04 |
 | Washington Wizards  |    55 | SE   | 25 | 30 | 0.455 |     \-3.47 |
 | New York Knicks     |    57 | A    | 25 | 32 | 0.439 |     \-1.48 |
-| Indiana Pacers      |    57 | C    | 19 | 38 | 0.333 |     \-2.56 |
+| Indiana Pacers      |    58 | C    | 19 | 39 | 0.328 |     \-2.68 |
 | Orlando Magic       |    58 | SE   | 13 | 45 | 0.224 |     \-8.47 |
 | Detroit Pistons     |    56 | C    | 12 | 44 | 0.214 |    \-10.20 |
 
@@ -39,7 +39,7 @@ Reference](https://www.basketball-reference.com/).
 | Utah Jazz              |    56 | NW   | 35 | 21 | 0.625 |       6.75 |
 | Dallas Mavericks       |    57 | SW   | 33 | 24 | 0.579 |       3.49 |
 | Denver Nuggets         |    56 | NW   | 31 | 25 | 0.554 |       2.05 |
-| Minnesota Timberwolves |    56 | NW   | 29 | 27 | 0.518 |       1.51 |
+| Minnesota Timberwolves |    57 | NW   | 30 | 27 | 0.526 |       1.64 |
 | Los Angeles Clippers   |    58 | P    | 28 | 30 | 0.483 |     \-1.69 |
 | Los Angeles Lakers     |    57 | P    | 26 | 31 | 0.456 |     \-1.58 |
 | Portland Trail Blazers |    57 | NW   | 23 | 34 | 0.404 |     \-4.53 |
