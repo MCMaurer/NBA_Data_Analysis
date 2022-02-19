@@ -5,7 +5,7 @@ Doing some analysis and visualization of NBA data, for fun.
 Data, so far, are gathered from the wonderful [Basketball
 Reference](https://www.basketball-reference.com/).
 
-## Data as of 06:42AM February 18, 2022
+## Data as of 06:38AM February 19, 2022
 
 ### Team Standings
 
@@ -20,7 +20,7 @@ Reference](https://www.basketball-reference.com/).
 | Milwaukee Bucks     |    60 | C    | 36 | 24 | 0.600 |       3.30 |
 | Boston Celtics      |    60 | A    | 34 | 26 | 0.567 |       5.68 |
 | Toronto Raptors     |    57 | A    | 32 | 25 | 0.561 |       1.79 |
-| Brooklyn Nets       |    59 | A    | 31 | 28 | 0.525 |     \-0.05 |
+| Brooklyn Nets       |    59 | A    | 31 | 28 | 0.525 |     \-0.04 |
 | Atlanta Hawks       |    58 | SE   | 28 | 30 | 0.483 |       0.48 |
 | Charlotte Hornets   |    60 | SE   | 29 | 31 | 0.483 |     \-0.87 |
 | Washington Wizards  |    58 | SE   | 27 | 31 | 0.466 |     \-2.96 |
