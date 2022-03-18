@@ -5,7 +5,7 @@ Doing some analysis and visualization of NBA data, for fun.
 Data, so far, are gathered from the wonderful [Basketball
 Reference](https://www.basketball-reference.com/).
 
-## Data as of 07:47AM March 17, 2022
+## Data as of 08:19AM March 18, 2022
 
 ### Team Standings
 
@@ -26,8 +26,8 @@ Reference](https://www.basketball-reference.com/).
 | Washington Wizards  |    68 | SE   | 29 | 39 | 0.426 |     \-3.43 |
 | New York Knicks     |    69 | A    | 29 | 40 | 0.420 |     \-0.61 |
 | Indiana Pacers      |    70 | C    | 23 | 47 | 0.329 |     \-2.74 |
-| Detroit Pistons     |    69 | C    | 18 | 51 | 0.261 |     \-8.80 |
-| Orlando Magic       |    70 | SE   | 18 | 52 | 0.257 |     \-7.95 |
+| Detroit Pistons     |    70 | C    | 19 | 51 | 0.271 |     \-8.48 |
+| Orlando Magic       |    71 | SE   | 18 | 53 | 0.254 |     \-8.03 |
 
 #### Western Conference
 
