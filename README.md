@@ -5,7 +5,7 @@ Doing some analysis and visualization of NBA data, for fun.
 Data, so far, are gathered from the wonderful [Basketball
 Reference](https://www.basketball-reference.com/).
 
-## Data as of 07:48AM April 05, 2022
+## Data as of 07:52AM April 06, 2022
 
 ### Team Standings
 
@@ -13,41 +13,41 @@ Reference](https://www.basketball-reference.com/).
 
 | Team                | Games | Div. |  W |  L |   W/L | Net Rating |
 | :------------------ | ----: | :--- | -: | -: | ----: | ---------: |
-| Miami Heat          |    79 | SE   | 51 | 28 | 0.646 |       4.55 |
+| Miami Heat          |    80 | SE   | 52 | 28 | 0.650 |       4.86 |
 | Boston Celtics      |    79 | A    | 49 | 30 | 0.620 |       7.37 |
-| Milwaukee Bucks     |    78 | C    | 48 | 30 | 0.615 |       2.99 |
-| Philadelphia 76ers  |    78 | A    | 48 | 30 | 0.615 |       2.35 |
-| Toronto Raptors     |    78 | A    | 45 | 33 | 0.577 |       2.42 |
-| Chicago Bulls       |    78 | C    | 45 | 33 | 0.577 |       0.23 |
-| Cleveland Cavaliers |    79 | C    | 43 | 36 | 0.544 |       2.20 |
-| Atlanta Hawks       |    78 | SE   | 41 | 37 | 0.526 |       1.43 |
-| Brooklyn Nets       |    78 | A    | 40 | 38 | 0.513 |       0.22 |
-| Charlotte Hornets   |    78 | SE   | 40 | 38 | 0.513 |       0.15 |
+| Milwaukee Bucks     |    79 | C    | 49 | 30 | 0.620 |       3.21 |
+| Philadelphia 76ers  |    79 | A    | 49 | 30 | 0.620 |       2.43 |
+| Toronto Raptors     |    79 | A    | 46 | 33 | 0.582 |       2.52 |
+| Chicago Bulls       |    79 | C    | 45 | 34 | 0.570 |     \-0.03 |
+| Cleveland Cavaliers |    80 | C    | 43 | 37 | 0.538 |       2.11 |
+| Atlanta Hawks       |    79 | SE   | 41 | 38 | 0.519 |       1.28 |
+| Brooklyn Nets       |    79 | A    | 41 | 38 | 0.519 |       0.38 |
+| Charlotte Hornets   |    79 | SE   | 40 | 39 | 0.506 |     \-0.23 |
 | New York Knicks     |    79 | A    | 35 | 44 | 0.443 |     \-0.36 |
-| Washington Wizards  |    78 | SE   | 34 | 44 | 0.436 |     \-3.31 |
-| Indiana Pacers      |    79 | C    | 25 | 54 | 0.316 |     \-3.27 |
+| Washington Wizards  |    79 | SE   | 35 | 44 | 0.443 |     \-3.05 |
+| Indiana Pacers      |    80 | C    | 25 | 55 | 0.313 |     \-3.34 |
 | Detroit Pistons     |    79 | C    | 23 | 56 | 0.291 |     \-7.24 |
-| Orlando Magic       |    79 | SE   | 20 | 59 | 0.253 |     \-8.22 |
+| Orlando Magic       |    80 | SE   | 21 | 59 | 0.263 |     \-8.05 |
 
 #### Western Conference
 
 | Team                   | Games | Div. |  W |  L |   W/L | Net Rating |
 | :--------------------- | ----: | :--- | -: | -: | ----: | ---------: |
-| Phoenix Suns           |    78 | P    | 62 | 16 | 0.795 |       7.79 |
-| Memphis Grizzlies      |    78 | SW   | 55 | 23 | 0.705 |       6.12 |
+| Phoenix Suns           |    79 | P    | 63 | 16 | 0.797 |       7.83 |
+| Memphis Grizzlies      |    79 | SW   | 55 | 24 | 0.696 |       5.98 |
 | Golden State Warriors  |    79 | P    | 50 | 29 | 0.633 |       5.32 |
 | Dallas Mavericks       |    79 | SW   | 49 | 30 | 0.620 |       2.66 |
-| Denver Nuggets         |    79 | NW   | 47 | 32 | 0.595 |       2.54 |
-| Utah Jazz              |    78 | NW   | 46 | 32 | 0.590 |       5.59 |
-| Minnesota Timberwolves |    79 | NW   | 45 | 34 | 0.570 |       2.83 |
+| Utah Jazz              |    79 | NW   | 47 | 32 | 0.595 |       5.58 |
+| Denver Nuggets         |    80 | NW   | 47 | 33 | 0.588 |       2.28 |
+| Minnesota Timberwolves |    80 | NW   | 45 | 35 | 0.563 |       2.58 |
 | Los Angeles Clippers   |    79 | P    | 39 | 40 | 0.494 |     \-1.01 |
-| New Orleans Pelicans   |    78 | SW   | 34 | 44 | 0.436 |     \-1.07 |
-| San Antonio Spurs      |    78 | SW   | 33 | 45 | 0.423 |       0.08 |
-| Los Angeles Lakers     |    78 | P    | 31 | 47 | 0.397 |     \-3.16 |
-| Sacramento Kings       |    79 | P    | 29 | 50 | 0.367 |     \-5.46 |
-| Portland Trail Blazers |    78 | NW   | 27 | 51 | 0.346 |     \-8.01 |
-| Oklahoma City Thunder  |    78 | NW   | 23 | 55 | 0.295 |     \-7.25 |
-| Houston Rockets        |    79 | SW   | 20 | 59 | 0.253 |     \-8.40 |
+| New Orleans Pelicans   |    79 | SW   | 35 | 44 | 0.443 |     \-0.87 |
+| San Antonio Spurs      |    79 | SW   | 34 | 45 | 0.430 |       0.31 |
+| Los Angeles Lakers     |    79 | P    | 31 | 48 | 0.392 |     \-3.25 |
+| Sacramento Kings       |    80 | P    | 29 | 51 | 0.363 |     \-5.58 |
+| Portland Trail Blazers |    79 | NW   | 27 | 52 | 0.342 |     \-7.96 |
+| Oklahoma City Thunder  |    79 | NW   | 24 | 55 | 0.304 |     \-7.10 |
+| Houston Rockets        |    80 | SW   | 20 | 60 | 0.250 |     \-8.46 |
 
 ### Individual Stats
 
@@ -55,19 +55,19 @@ Reference](https://www.basketball-reference.com/).
 
 | player                | tm  |  pts |  g |  ppg |
 | :-------------------- | :-- | ---: | -: | ---: |
+| Joel Embiid           | PHI | 2008 | 66 | 30.4 |
 | LeBron James          | LAL | 1695 | 56 | 30.3 |
-| Joel Embiid           | PHI | 1963 | 65 | 30.2 |
-| Giannis Antetokounmpo | MIL | 1925 | 64 | 30.1 |
-| Kevin Durant          | BRK | 1537 | 51 | 30.1 |
+| Giannis Antetokounmpo | MIL | 1943 | 65 | 29.9 |
+| Kevin Durant          | BRK | 1555 | 52 | 29.9 |
 | Luka Dončić           | DAL | 1756 | 62 | 28.3 |
 
 #### VORP Leaders
 
 | player                | tm  | vorp |
 | :-------------------- | :-- | ---: |
-| Nikola Jokić          | DEN |  9.5 |
+| Nikola Jokić          | DEN |  9.6 |
 | Giannis Antetokounmpo | MIL |  7.1 |
-| Joel Embiid           | PHI |  6.3 |
+| Joel Embiid           | PHI |  6.4 |
 | Luka Dončić           | DAL |  5.7 |
 | LeBron James          | LAL |  5.1 |
 
