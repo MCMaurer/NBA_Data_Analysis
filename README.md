@@ -5,7 +5,7 @@ Doing some analysis and visualization of NBA data, for fun.
 Data, so far, are gathered from the wonderful [Basketball
 Reference](https://www.basketball-reference.com/).
 
-## Data as of 07:52AM April 12, 2022
+## Data as of 07:49AM April 13, 2022
 
 ### Team Standings
 
@@ -13,12 +13,6 @@ Reference](https://www.basketball-reference.com/).
 
 | Team                | Games | Div. |  W |  L |   W/L | Net Rating |
 | :------------------ | ----: | :--- | -: | -: | ----: | ---------: |
-| Miami Heat          |    82 | SE   | 53 | 29 | 0.646 |       4.62 |
-| Boston Celtics      |    82 | A    | 51 | 31 | 0.622 |       7.66 |
-| Milwaukee Bucks     |    82 | C    | 51 | 31 | 0.622 |       3.31 |
-| Philadelphia 76ers  |    82 | A    | 51 | 31 | 0.622 |       2.59 |
-| Toronto Raptors     |    82 | A    | 48 | 34 | 0.585 |       2.38 |
-| Chicago Bulls       |    82 | C    | 46 | 36 | 0.561 |     \-0.48 |
 | Cleveland Cavaliers |    82 | C    | 44 | 38 | 0.537 |       2.13 |
 | Brooklyn Nets       |    82 | A    | 44 | 38 | 0.537 |       0.76 |
 | Atlanta Hawks       |    82 | SE   | 43 | 39 | 0.524 |       1.58 |
@@ -33,12 +27,6 @@ Reference](https://www.basketball-reference.com/).
 
 | Team                   | Games | Div. |  W |  L |   W/L | Net Rating |
 | :--------------------- | ----: | :--- | -: | -: | ----: | ---------: |
-| Phoenix Suns           |    82 | P    | 64 | 18 | 0.780 |       7.48 |
-| Memphis Grizzlies      |    82 | SW   | 56 | 26 | 0.683 |       5.56 |
-| Golden State Warriors  |    82 | P    | 53 | 29 | 0.646 |       5.65 |
-| Dallas Mavericks       |    82 | SW   | 52 | 30 | 0.634 |       3.55 |
-| Utah Jazz              |    82 | NW   | 49 | 33 | 0.598 |       6.16 |
-| Denver Nuggets         |    82 | NW   | 48 | 34 | 0.585 |       2.33 |
 | Minnesota Timberwolves |    82 | NW   | 46 | 36 | 0.561 |       2.54 |
 | Los Angeles Clippers   |    82 | P    | 42 | 40 | 0.512 |     \-0.06 |
 | New Orleans Pelicans   |    82 | SW   | 36 | 46 | 0.439 |     \-0.98 |
