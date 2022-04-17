@@ -5,7 +5,7 @@ Doing some analysis and visualization of NBA data, for fun.
 Data, so far, are gathered from the wonderful [Basketball
 Reference](https://www.basketball-reference.com/).
 
-## Data as of 07:48AM April 15, 2022
+## Data as of 07:47AM April 17, 2022
 
 ### Team Standings
 
@@ -14,7 +14,6 @@ Reference](https://www.basketball-reference.com/).
 | Team                | Games | Div. |  W |  L |   W/L | Net Rating |
 | :------------------ | ----: | :--- | -: | -: | ----: | ---------: |
 | Cleveland Cavaliers |    82 | C    | 44 | 38 | 0.537 |       2.13 |
-| Atlanta Hawks       |    82 | SE   | 43 | 39 | 0.524 |       1.58 |
 | Charlotte Hornets   |    82 | SE   | 43 | 39 | 0.524 |       0.50 |
 | New York Knicks     |    82 | A    | 37 | 45 | 0.451 |     \-0.08 |
 | Washington Wizards  |    82 | SE   | 35 | 47 | 0.427 |     \-3.61 |
@@ -27,7 +26,6 @@ Reference](https://www.basketball-reference.com/).
 | Team                   | Games | Div. |  W |  L |   W/L | Net Rating |
 | :--------------------- | ----: | :--- | -: | -: | ----: | ---------: |
 | Los Angeles Clippers   |    82 | P    | 42 | 40 | 0.512 |     \-0.06 |
-| New Orleans Pelicans   |    82 | SW   | 36 | 46 | 0.439 |     \-0.98 |
 | San Antonio Spurs      |    82 | SW   | 34 | 48 | 0.415 |       0.03 |
 | Los Angeles Lakers     |    82 | P    | 33 | 49 | 0.402 |     \-3.02 |
 | Sacramento Kings       |    82 | P    | 30 | 52 | 0.366 |     \-5.59 |
