@@ -5,7 +5,7 @@ Doing some analysis and visualization of NBA data, for fun.
 Data, so far, are gathered from the wonderful [Basketball
 Reference](https://www.basketball-reference.com/).
 
-## Data as of 07:59AM July 05, 2022
+## Data as of 08:01AM July 06, 2022
 
 ### Team Standings
 
