@@ -26,7 +26,7 @@ get_team_names <- function(year = 2023){
   return(teams)
 }
 
-get_player_data <- function(year = 2022, totals = T, per_100 = F,
+get_player_data <- function(year = 2023, totals = T, per_100 = F,
                             advanced = F, pbp = F, shooting = F,
                             adj_shooting = F){
   
@@ -214,7 +214,7 @@ get_player_data <- function(year = 2022, totals = T, per_100 = F,
   return(player_data)
 }
 
-get_team_data <- function(year = 2022, totals = T, per_100 = F,
+get_team_data <- function(year = 2023, totals = T, per_100 = F,
                           advanced = F, shooting = F, ratings = F){
   
   read_html_s <- possibly(read_html, otherwise = NULL)
