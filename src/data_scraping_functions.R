@@ -6,7 +6,7 @@ library(purrr)
 library(stringr)
 library(tibble)
 
-get_team_names <- function(year = 2022){
+get_team_names <- function(year = 2023){
   
   url <- paste0("https://www.basketball-reference.com/leagues/NBA_", year, "_standings.html")
   
