@@ -5,7 +5,7 @@ Doing some analysis and visualization of NBA data, for fun.
 Data, so far, are gathered from the wonderful [Basketball
 Reference](https://www.basketball-reference.com/).
 
-## Data as of 06:59AM November 30, 2022
+## Data as of 06:54AM December 01, 2022
 
 ### Team Standings
 
@@ -13,63 +13,63 @@ Reference](https://www.basketball-reference.com/).
 
 | Team                | Games | Div. |   W |   L |   W/L | Net Rating |
 |:--------------------|------:|:-----|----:|----:|------:|-----------:|
-| Boston Celtics      |    21 | A    |  17 |   4 | 0.810 |       8.69 |
-| Milwaukee Bucks     |    19 | C    |  14 |   5 | 0.737 |       4.93 |
-| Cleveland Cavaliers |    21 | C    |  13 |   8 | 0.619 |       6.06 |
-| Indiana Pacers      |    20 | C    |  12 |   8 | 0.600 |       1.44 |
-| Philadelphia 76ers  |    21 | A    |  12 |   9 | 0.571 |       3.90 |
-| Toronto Raptors     |    20 | A    |  11 |   9 | 0.550 |       2.21 |
-| Atlanta Hawks       |    21 | SE   |  11 |  10 | 0.524 |      -0.46 |
-| Washington Wizards  |    21 | SE   |  11 |  10 | 0.524 |      -1.02 |
-| Brooklyn Nets       |    22 | A    |  11 |  11 | 0.500 |       1.01 |
-| Miami Heat          |    21 | SE   |  10 |  11 | 0.476 |      -0.61 |
-| New York Knicks     |    21 | A    |  10 |  11 | 0.476 |      -0.85 |
-| Chicago Bulls       |    20 | C    |   9 |  11 | 0.450 |       0.15 |
+| Boston Celtics      |    22 | A    |  18 |   4 | 0.818 |       8.90 |
+| Milwaukee Bucks     |    20 | C    |  15 |   5 | 0.750 |       5.01 |
+| Cleveland Cavaliers |    22 | C    |  14 |   8 | 0.636 |       7.19 |
+| Indiana Pacers      |    21 | C    |  12 |   9 | 0.571 |       0.41 |
+| Philadelphia 76ers  |    22 | A    |  12 |  10 | 0.545 |       2.32 |
+| Atlanta Hawks       |    22 | SE   |  12 |  10 | 0.545 |       0.34 |
+| Toronto Raptors     |    21 | A    |  11 |  10 | 0.524 |       1.29 |
+| Brooklyn Nets       |    23 | A    |  12 |  11 | 0.522 |       1.23 |
+| Washington Wizards  |    22 | SE   |  11 |  11 | 0.500 |      -1.25 |
+| New York Knicks     |    22 | A    |  10 |  12 | 0.455 |      -1.10 |
+| Miami Heat          |    22 | SE   |  10 |  12 | 0.455 |      -1.19 |
+| Chicago Bulls       |    21 | C    |   9 |  12 | 0.429 |      -0.74 |
 | Charlotte Hornets   |    21 | SE   |   6 |  15 | 0.286 |      -6.16 |
-| Orlando Magic       |    21 | SE   |   5 |  16 | 0.238 |      -5.68 |
+| Orlando Magic       |    22 | SE   |   5 |  17 | 0.227 |      -6.20 |
 | Detroit Pistons     |    23 | C    |   5 |  18 | 0.217 |      -8.70 |
 
 #### Western Conference
 
 | Team                   | Games | Div. |   W |   L |   W/L | Net Rating |
 |:-----------------------|------:|:-----|----:|----:|------:|-----------:|
-| Phoenix Suns           |    20 | P    |  14 |   6 | 0.700 |       6.84 |
-| Denver Nuggets         |    20 | NW   |  13 |   7 | 0.650 |       1.28 |
-| New Orleans Pelicans   |    20 | SW   |  12 |   8 | 0.600 |       5.38 |
-| Memphis Grizzlies      |    20 | SW   |  12 |   8 | 0.600 |       1.45 |
-| Los Angeles Clippers   |    22 | P    |  13 |   9 | 0.591 |      -0.20 |
-| Sacramento Kings       |    19 | P    |  10 |   9 | 0.526 |       1.51 |
-| Portland Trail Blazers |    21 | NW   |  11 |  10 | 0.524 |      -1.05 |
-| Utah Jazz              |    23 | NW   |  12 |  11 | 0.522 |       1.00 |
+| Phoenix Suns           |    21 | P    |  15 |   6 | 0.714 |       7.40 |
+| Denver Nuggets         |    21 | NW   |  14 |   7 | 0.667 |       2.22 |
+| New Orleans Pelicans   |    21 | SW   |  13 |   8 | 0.619 |       5.94 |
+| Memphis Grizzlies      |    21 | SW   |  12 |   9 | 0.571 |       1.00 |
+| Los Angeles Clippers   |    23 | P    |  13 |  10 | 0.565 |      -0.78 |
+| Sacramento Kings       |    20 | P    |  11 |   9 | 0.550 |       2.45 |
+| Utah Jazz              |    24 | NW   |  13 |  11 | 0.542 |       1.52 |
 | Dallas Mavericks       |    20 | SW   |  10 |  10 | 0.500 |       1.90 |
 | Golden State Warriors  |    22 | P    |  11 |  11 | 0.500 |       0.32 |
-| Minnesota Timberwolves |    21 | NW   |  10 |  11 | 0.476 |      -1.30 |
-| Oklahoma City Thunder  |    21 | NW   |   8 |  13 | 0.381 |      -1.83 |
-| Los Angeles Lakers     |    19 | P    |   7 |  12 | 0.368 |      -2.08 |
-| San Antonio Spurs      |    21 | SW   |   6 |  15 | 0.286 |     -10.19 |
-| Houston Rockets        |    20 | SW   |   5 |  15 | 0.250 |      -6.17 |
+| Minnesota Timberwolves |    22 | NW   |  11 |  11 | 0.500 |      -0.88 |
+| Portland Trail Blazers |    22 | NW   |  11 |  11 | 0.500 |      -1.88 |
+| Oklahoma City Thunder  |    22 | NW   |   9 |  13 | 0.409 |      -1.37 |
+| Los Angeles Lakers     |    20 | P    |   8 |  12 | 0.400 |      -1.00 |
+| San Antonio Spurs      |    22 | SW   |   6 |  16 | 0.273 |     -10.10 |
+| Houston Rockets        |    21 | SW   |   5 |  16 | 0.238 |      -6.88 |
 
 ### Individual Stats
 
 #### PPG Leaders
 
-| player                  | tm  | pts |   g |  ppg |
-|:------------------------|:----|----:|----:|-----:|
-| Luka Dončić             | DAL | 636 |  19 | 33.5 |
-| Joel Embiid             | PHI | 417 |  13 | 32.1 |
-| Stephen Curry           | GSW | 628 |  20 | 31.4 |
-| Shai Gilgeous-Alexander | OKC | 621 |  20 | 31.0 |
-| Giannis Antetokounmpo   | MIL | 495 |  16 | 30.9 |
+| player                | tm  | pts |   g |  ppg |
+|:----------------------|:----|----:|----:|-----:|
+| Luka Dončić           | DAL | 636 |  19 | 33.5 |
+| Jayson Tatum          | BOS | 664 |  21 | 31.6 |
+| Stephen Curry         | GSW | 628 |  20 | 31.4 |
+| Giannis Antetokounmpo | MIL | 532 |  17 | 31.3 |
+| Joel Embiid           | PHI | 436 |  14 | 31.1 |
 
 #### VORP Leaders
 
-| player                  | tm  | vorp |
-|:------------------------|:----|-----:|
-| Luka Dončić             | DAL |  2.3 |
-| Stephen Curry           | GSW |  2.2 |
-| Kevin Durant            | BRK |  1.8 |
-| Nikola Jokić            | DEN |  1.8 |
-| Shai Gilgeous-Alexander | OKC |  1.6 |
+| player        | tm  | vorp |
+|:--------------|:----|-----:|
+| Luka Dončić   | DAL |  2.3 |
+| Stephen Curry | GSW |  2.2 |
+| Nikola Jokić  | DEN |  2.0 |
+| Kevin Durant  | BRK |  1.9 |
+| Jayson Tatum  | BOS |  1.8 |
 
 #### Advanced Stat Leaders
 
