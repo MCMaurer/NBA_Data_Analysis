@@ -5,7 +5,7 @@ Doing some analysis and visualization of NBA data, for fun.
 Data, so far, are gathered from the wonderful [Basketball
 Reference](https://www.basketball-reference.com/).
 
-## Data as of 06:54AM December 01, 2022
+## Data as of 06:53AM December 02, 2022
 
 ### Team Standings
 
@@ -26,8 +26,8 @@ Reference](https://www.basketball-reference.com/).
 | Miami Heat          |    22 | SE   |  10 |  12 | 0.455 |      -1.19 |
 | Chicago Bulls       |    21 | C    |   9 |  12 | 0.429 |      -0.74 |
 | Charlotte Hornets   |    21 | SE   |   6 |  15 | 0.286 |      -6.16 |
+| Detroit Pistons     |    24 | C    |   6 |  18 | 0.250 |      -8.09 |
 | Orlando Magic       |    22 | SE   |   5 |  17 | 0.227 |      -6.20 |
-| Detroit Pistons     |    23 | C    |   5 |  18 | 0.217 |      -8.70 |
 
 #### Western Conference
 
@@ -40,10 +40,10 @@ Reference](https://www.basketball-reference.com/).
 | Los Angeles Clippers   |    23 | P    |  13 |  10 | 0.565 |      -0.78 |
 | Sacramento Kings       |    20 | P    |  11 |   9 | 0.550 |       2.45 |
 | Utah Jazz              |    24 | NW   |  13 |  11 | 0.542 |       1.52 |
-| Dallas Mavericks       |    20 | SW   |  10 |  10 | 0.500 |       1.90 |
 | Golden State Warriors  |    22 | P    |  11 |  11 | 0.500 |       0.32 |
 | Minnesota Timberwolves |    22 | NW   |  11 |  11 | 0.500 |      -0.88 |
 | Portland Trail Blazers |    22 | NW   |  11 |  11 | 0.500 |      -1.88 |
+| Dallas Mavericks       |    21 | SW   |  10 |  11 | 0.476 |       1.54 |
 | Oklahoma City Thunder  |    22 | NW   |   9 |  13 | 0.409 |      -1.37 |
 | Los Angeles Lakers     |    20 | P    |   8 |  12 | 0.400 |      -1.00 |
 | San Antonio Spurs      |    22 | SW   |   6 |  16 | 0.273 |     -10.10 |
@@ -55,7 +55,7 @@ Reference](https://www.basketball-reference.com/).
 
 | player                | tm  | pts |   g |  ppg |
 |:----------------------|:----|----:|----:|-----:|
-| Luka Dončić           | DAL | 636 |  19 | 33.5 |
+| Luka Dončić           | DAL | 671 |  20 | 33.5 |
 | Jayson Tatum          | BOS | 664 |  21 | 31.6 |
 | Stephen Curry         | GSW | 628 |  20 | 31.4 |
 | Giannis Antetokounmpo | MIL | 532 |  17 | 31.3 |
@@ -63,13 +63,13 @@ Reference](https://www.basketball-reference.com/).
 
 #### VORP Leaders
 
-| player        | tm  | vorp |
-|:--------------|:----|-----:|
-| Luka Dončić   | DAL |  2.3 |
-| Stephen Curry | GSW |  2.2 |
-| Nikola Jokić  | DEN |  2.0 |
-| Kevin Durant  | BRK |  1.9 |
-| Jayson Tatum  | BOS |  1.8 |
+| player           | tm  | vorp |
+|:-----------------|:----|-----:|
+| Luka Dončić      | DAL |  2.4 |
+| Stephen Curry    | GSW |  2.2 |
+| Nikola Jokić     | DEN |  2.0 |
+| Kevin Durant     | BRK |  1.9 |
+| Donovan Mitchell | CLE |  1.8 |
 
 #### Advanced Stat Leaders
 
