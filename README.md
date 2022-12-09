@@ -5,7 +5,7 @@ Doing some analysis and visualization of NBA data, for fun.
 Data, so far, are gathered from the wonderful [Basketball
 Reference](https://www.basketball-reference.com/).
 
-## Data as of 06:50AM December 08, 2022
+## Data as of 06:48AM December 09, 2022
 
 ### Team Standings
 
@@ -22,8 +22,8 @@ Reference](https://www.basketball-reference.com/).
 | Indiana Pacers      |    25 | C    |  13 |  12 | 0.520 |      -0.94 |
 | Philadelphia 76ers  |    24 | A    |  12 |  12 | 0.500 |       1.45 |
 | New York Knicks     |    25 | A    |  12 |  13 | 0.480 |      -0.32 |
+| Miami Heat          |    26 | SE   |  12 |  14 | 0.462 |      -1.80 |
 | Washington Wizards  |    25 | SE   |  11 |  14 | 0.440 |      -1.69 |
-| Miami Heat          |    25 | SE   |  11 |  14 | 0.440 |      -2.08 |
 | Chicago Bulls       |    24 | C    |  10 |  14 | 0.417 |      -1.17 |
 | Charlotte Hornets   |    25 | SE   |   7 |  18 | 0.280 |      -5.81 |
 | Detroit Pistons     |    27 | C    |   7 |  20 | 0.259 |      -7.00 |
@@ -36,18 +36,18 @@ Reference](https://www.basketball-reference.com/).
 | New Orleans Pelicans   |    24 | SW   |  16 |   8 | 0.667 |       6.81 |
 | Phoenix Suns           |    25 | P    |  16 |   9 | 0.640 |       5.91 |
 | Memphis Grizzlies      |    25 | SW   |  16 |   9 | 0.640 |       2.71 |
-| Denver Nuggets         |    24 | NW   |  14 |  10 | 0.583 |       0.92 |
+| Denver Nuggets         |    25 | NW   |  15 |  10 | 0.600 |       0.92 |
 | Sacramento Kings       |    23 | P    |  13 |  10 | 0.565 |       3.07 |
 | Utah Jazz              |    27 | NW   |  15 |  12 | 0.556 |       1.85 |
 | Dallas Mavericks       |    24 | SW   |  13 |  11 | 0.542 |       3.09 |
-| Portland Trail Blazers |    24 | NW   |  13 |  11 | 0.542 |      -0.83 |
-| Los Angeles Clippers   |    26 | P    |  14 |  12 | 0.538 |      -1.83 |
+| Portland Trail Blazers |    25 | NW   |  13 |  12 | 0.520 |      -0.84 |
+| Los Angeles Clippers   |    27 | P    |  14 |  13 | 0.519 |      -1.95 |
 | Golden State Warriors  |    26 | P    |  13 |  13 | 0.500 |       0.97 |
 | Minnesota Timberwolves |    24 | NW   |  12 |  12 | 0.500 |      -0.82 |
 | Oklahoma City Thunder  |    25 | NW   |  11 |  14 | 0.440 |      -1.51 |
 | Los Angeles Lakers     |    24 | P    |  10 |  14 | 0.417 |      -1.36 |
-| Houston Rockets        |    24 | SW   |   7 |  17 | 0.292 |      -6.46 |
-| San Antonio Spurs      |    24 | SW   |   6 |  18 | 0.250 |     -11.61 |
+| Houston Rockets        |    25 | SW   |   7 |  18 | 0.280 |      -6.57 |
+| San Antonio Spurs      |    25 | SW   |   7 |  18 | 0.280 |     -10.78 |
 
 ### Individual Stats
 
@@ -66,7 +66,7 @@ Reference](https://www.basketball-reference.com/).
 | player           | tm  | vorp |
 |:-----------------|:----|-----:|
 | Luka Dončić      | DAL |  2.8 |
-| Nikola Jokić     | DEN |  2.3 |
+| Nikola Jokić     | DEN |  2.4 |
 | Stephen Curry    | GSW |  2.2 |
 | Kevin Durant     | BRK |  2.2 |
 | Donovan Mitchell | CLE |  2.1 |
