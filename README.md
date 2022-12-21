@@ -5,7 +5,7 @@ Doing some analysis and visualization of NBA data, for fun.
 Data, so far, are gathered from the wonderful [Basketball
 Reference](https://www.basketball-reference.com/).
 
-## Data as of 06:47AM December 20, 2022
+## Data as of 06:46AM December 21, 2022
 
 ### Team Standings
 
@@ -18,32 +18,32 @@ Reference](https://www.basketball-reference.com/).
 | Cleveland Cavaliers |    32 | C    |  21 |  11 | 0.656 |       6.79 |
 | Brooklyn Nets       |    31 | A    |  19 |  12 | 0.613 |       1.84 |
 | Philadelphia 76ers  |    29 | A    |  17 |  12 | 0.586 |       3.34 |
-| New York Knicks     |    30 | A    |  17 |  13 | 0.567 |       1.98 |
-| Miami Heat          |    31 | SE   |  16 |  15 | 0.516 |      -0.97 |
+| New York Knicks     |    31 | A    |  18 |  13 | 0.581 |       3.22 |
 | Atlanta Hawks       |    31 | SE   |  16 |  15 | 0.516 |      -1.09 |
+| Miami Heat          |    32 | SE   |  16 |  16 | 0.500 |      -1.28 |
 | Indiana Pacers      |    31 | C    |  15 |  16 | 0.484 |      -0.79 |
 | Toronto Raptors     |    31 | A    |  13 |  18 | 0.419 |      -0.13 |
-| Chicago Bulls       |    29 | C    |  11 |  18 | 0.379 |      -1.89 |
-| Washington Wizards  |    31 | SE   |  11 |  20 | 0.355 |      -3.10 |
+| Chicago Bulls       |    30 | C    |  12 |  18 | 0.400 |      -1.47 |
+| Washington Wizards  |    32 | SE   |  12 |  20 | 0.375 |      -2.90 |
 | Orlando Magic       |    32 | SE   |  11 |  21 | 0.344 |      -3.91 |
 | Charlotte Hornets   |    31 | SE   |   8 |  23 | 0.258 |      -6.67 |
-| Detroit Pistons     |    32 | C    |   8 |  24 | 0.250 |      -6.63 |
+| Detroit Pistons     |    33 | C    |   8 |  25 | 0.242 |      -6.90 |
 
 #### Western Conference
 
 | Team                   | Games | Div. |   W |   L |   W/L | Net Rating |
 |:-----------------------|------:|:-----|----:|----:|------:|-----------:|
-| Memphis Grizzlies      |    29 | SW   |  19 |  10 | 0.655 |       4.71 |
-| Denver Nuggets         |    29 | NW   |  18 |  11 | 0.621 |       0.92 |
-| Phoenix Suns           |    31 | P    |  19 |  12 | 0.613 |       5.37 |
+| Memphis Grizzlies      |    30 | SW   |  19 |  11 | 0.633 |       4.09 |
+| Denver Nuggets         |    30 | NW   |  19 |  11 | 0.633 |       1.35 |
 | New Orleans Pelicans   |    30 | SW   |  18 |  12 | 0.600 |       4.79 |
+| Phoenix Suns           |    32 | P    |  19 |  13 | 0.594 |       5.10 |
 | Los Angeles Clippers   |    32 | P    |  18 |  14 | 0.563 |      -0.66 |
 | Sacramento Kings       |    29 | P    |  16 |  13 | 0.552 |       1.86 |
 | Portland Trail Blazers |    31 | NW   |  17 |  14 | 0.548 |       0.40 |
+| Utah Jazz              |    34 | NW   |  18 |  16 | 0.529 |       0.62 |
 | Minnesota Timberwolves |    31 | NW   |  16 |  15 | 0.516 |      -0.37 |
-| Utah Jazz              |    33 | NW   |  17 |  16 | 0.515 |       0.18 |
 | Dallas Mavericks       |    31 | SW   |  15 |  16 | 0.484 |       1.37 |
-| Golden State Warriors  |    31 | P    |  15 |  16 | 0.484 |       0.79 |
+| Golden State Warriors  |    32 | P    |  15 |  17 | 0.469 |      -0.50 |
 | Los Angeles Lakers     |    30 | P    |  13 |  17 | 0.433 |      -1.56 |
 | Oklahoma City Thunder  |    31 | NW   |  13 |  18 | 0.419 |      -1.60 |
 | San Antonio Spurs      |    30 | SW   |  10 |  20 | 0.333 |      -9.05 |
@@ -66,7 +66,7 @@ Reference](https://www.basketball-reference.com/).
 | player           | tm  | vorp |
 |:-----------------|:----|-----:|
 | Luka Dončić      | DAL |  3.2 |
-| Nikola Jokić     | DEN |  3.1 |
+| Nikola Jokić     | DEN |  3.2 |
 | Stephen Curry    | GSW |  2.6 |
 | Kevin Durant     | BRK |  2.5 |
 | Donovan Mitchell | CLE |  2.5 |
