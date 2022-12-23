@@ -5,7 +5,7 @@ Doing some analysis and visualization of NBA data, for fun.
 Data, so far, are gathered from the wonderful [Basketball
 Reference](https://www.basketball-reference.com/).
 
-## Data as of 06:49AM December 22, 2022
+## Data as of 06:49AM December 23, 2022
 
 ### Team Standings
 
@@ -24,7 +24,7 @@ Reference](https://www.basketball-reference.com/).
 | Miami Heat          |    32 | SE   |  16 |  16 | 0.500 |      -1.28 |
 | Toronto Raptors     |    32 | A    |  14 |  18 | 0.438 |       0.12 |
 | Chicago Bulls       |    31 | C    |  13 |  18 | 0.419 |      -1.35 |
-| Washington Wizards  |    32 | SE   |  12 |  20 | 0.375 |      -2.90 |
+| Washington Wizards  |    33 | SE   |  12 |  21 | 0.364 |      -3.07 |
 | Orlando Magic       |    33 | SE   |  12 |  21 | 0.364 |      -3.61 |
 | Charlotte Hornets   |    32 | SE   |   8 |  24 | 0.250 |      -7.07 |
 | Detroit Pistons     |    34 | C    |   8 |  26 | 0.235 |      -7.28 |
@@ -35,18 +35,18 @@ Reference](https://www.basketball-reference.com/).
 |:-----------------------|------:|:-----|----:|----:|------:|-----------:|
 | Memphis Grizzlies      |    30 | SW   |  19 |  11 | 0.633 |       4.09 |
 | Denver Nuggets         |    30 | NW   |  19 |  11 | 0.633 |       1.35 |
-| New Orleans Pelicans   |    30 | SW   |  18 |  12 | 0.600 |       4.79 |
+| New Orleans Pelicans   |    31 | SW   |  19 |  12 | 0.613 |       4.92 |
 | Phoenix Suns           |    32 | P    |  19 |  13 | 0.594 |       5.10 |
 | Los Angeles Clippers   |    33 | P    |  19 |  14 | 0.576 |      -0.05 |
 | Sacramento Kings       |    30 | P    |  17 |  13 | 0.567 |       2.24 |
+| Utah Jazz              |    35 | NW   |  19 |  16 | 0.543 |       0.84 |
 | Portland Trail Blazers |    32 | NW   |  17 |  15 | 0.531 |       0.28 |
-| Utah Jazz              |    34 | NW   |  18 |  16 | 0.529 |       0.62 |
 | Dallas Mavericks       |    32 | SW   |  16 |  16 | 0.500 |       1.50 |
 | Minnesota Timberwolves |    32 | NW   |  16 |  16 | 0.500 |      -0.53 |
 | Golden State Warriors  |    33 | P    |  15 |  18 | 0.455 |      -1.37 |
 | Oklahoma City Thunder  |    32 | NW   |  14 |  18 | 0.438 |      -1.45 |
 | Los Angeles Lakers     |    31 | P    |  13 |  18 | 0.419 |      -1.94 |
-| San Antonio Spurs      |    30 | SW   |  10 |  20 | 0.333 |      -9.05 |
+| San Antonio Spurs      |    31 | SW   |  10 |  21 | 0.323 |      -9.05 |
 | Houston Rockets        |    31 | SW   |   9 |  22 | 0.290 |      -6.00 |
 
 ### Individual Stats
