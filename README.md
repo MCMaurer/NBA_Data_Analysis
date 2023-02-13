@@ -5,7 +5,7 @@ Doing some analysis and visualization of NBA data, for fun.
 Data, so far, are gathered from the wonderful [Basketball
 Reference](https://www.basketball-reference.com/).
 
-## Data as of 06:46AM February 12, 2023
+## Data as of 06:49AM February 13, 2023
 
 ### Team Standings
 
@@ -13,7 +13,7 @@ Reference](https://www.basketball-reference.com/).
 
 | Team                | Games | Div. |   W |   L |   W/L | Net Rating |
 |:--------------------|------:|:-----|----:|----:|------:|-----------:|
-| Boston Celtics      |    56 | A    |  40 |  16 | 0.714 |       6.33 |
+| Boston Celtics      |    57 | A    |  41 |  16 | 0.719 |       6.40 |
 | Milwaukee Bucks     |    56 | C    |  39 |  17 | 0.696 |       2.92 |
 | Philadelphia 76ers  |    55 | A    |  36 |  19 | 0.655 |       3.57 |
 | Cleveland Cavaliers |    59 | C    |  37 |  22 | 0.627 |       6.03 |
@@ -22,19 +22,19 @@ Reference](https://www.basketball-reference.com/).
 | New York Knicks     |    58 | A    |  31 |  27 | 0.534 |       1.75 |
 | Atlanta Hawks       |    57 | SE   |  29 |  28 | 0.509 |       0.11 |
 | Washington Wizards  |    55 | SE   |  26 |  29 | 0.473 |      -0.13 |
+| Toronto Raptors     |    58 | A    |  27 |  31 | 0.466 |       0.72 |
 | Chicago Bulls       |    56 | C    |  26 |  30 | 0.464 |       0.15 |
-| Toronto Raptors     |    57 | A    |  26 |  31 | 0.456 |       0.71 |
 | Indiana Pacers      |    58 | C    |  25 |  33 | 0.431 |      -2.63 |
 | Orlando Magic       |    57 | SE   |  23 |  34 | 0.404 |      -2.87 |
-| Detroit Pistons     |    57 | C    |  15 |  42 | 0.263 |      -7.51 |
 | Charlotte Hornets   |    58 | SE   |  15 |  43 | 0.259 |      -6.88 |
+| Detroit Pistons     |    58 | C    |  15 |  43 | 0.259 |      -7.40 |
 
 #### Western Conference
 
 | Team                   | Games | Div. |   W |   L |   W/L | Net Rating |
 |:-----------------------|------:|:-----|----:|----:|------:|-----------:|
 | Denver Nuggets         |    57 | NW   |  39 |  18 | 0.684 |       4.27 |
-| Memphis Grizzlies      |    55 | SW   |  34 |  21 | 0.618 |       4.10 |
+| Memphis Grizzlies      |    56 | SW   |  34 |  22 | 0.607 |       3.84 |
 | Sacramento Kings       |    56 | P    |  32 |  24 | 0.571 |       2.31 |
 | Phoenix Suns           |    58 | P    |  31 |  27 | 0.534 |       1.32 |
 | Dallas Mavericks       |    58 | SW   |  31 |  27 | 0.534 |       0.71 |
