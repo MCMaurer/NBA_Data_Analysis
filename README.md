@@ -5,7 +5,7 @@ Doing some analysis and visualization of NBA data, for fun.
 Data, so far, are gathered from the wonderful [Basketball
 Reference](https://www.basketball-reference.com/).
 
-## Data as of 06:51AM February 27, 2023
+## Data as of 06:49AM February 28, 2023
 
 ### Team Standings
 
@@ -13,21 +13,21 @@ Reference](https://www.basketball-reference.com/).
 
 | Team                | Games | Div. |   W |   L |   W/L | Net Rating |
 |:--------------------|------:|:-----|----:|----:|------:|-----------:|
-| Boston Celtics      |    61 | A    |  44 |  17 | 0.721 |       6.31 |
 | Milwaukee Bucks     |    60 | C    |  43 |  17 | 0.717 |       3.55 |
-| Philadelphia 76ers  |    59 | A    |  39 |  20 | 0.661 |       3.80 |
+| Boston Celtics      |    62 | A    |  44 |  18 | 0.710 |       5.95 |
+| Philadelphia 76ers  |    60 | A    |  39 |  21 | 0.650 |       3.70 |
 | Cleveland Cavaliers |    64 | C    |  39 |  25 | 0.609 |       5.63 |
+| New York Knicks     |    63 | A    |  36 |  27 | 0.571 |       2.95 |
 | Brooklyn Nets       |    60 | A    |  34 |  26 | 0.567 |       0.93 |
-| New York Knicks     |    62 | A    |  35 |  27 | 0.565 |       2.74 |
-| Miami Heat          |    61 | SE   |  32 |  29 | 0.525 |      -0.57 |
+| Miami Heat          |    62 | SE   |  33 |  29 | 0.532 |      -0.53 |
 | Atlanta Hawks       |    61 | SE   |  31 |  30 | 0.508 |      -0.02 |
 | Toronto Raptors     |    62 | A    |  30 |  32 | 0.484 |       0.56 |
 | Washington Wizards  |    60 | SE   |  28 |  32 | 0.467 |      -0.20 |
 | Chicago Bulls       |    61 | C    |  28 |  33 | 0.459 |       0.84 |
 | Indiana Pacers      |    62 | C    |  27 |  35 | 0.435 |      -2.35 |
-| Orlando Magic       |    61 | SE   |  25 |  36 | 0.410 |      -2.88 |
-| Charlotte Hornets   |    62 | SE   |  19 |  43 | 0.306 |      -5.99 |
-| Detroit Pistons     |    61 | C    |  15 |  46 | 0.246 |      -7.44 |
+| Orlando Magic       |    62 | SE   |  26 |  36 | 0.419 |      -2.70 |
+| Charlotte Hornets   |    63 | SE   |  20 |  43 | 0.317 |      -5.72 |
+| Detroit Pistons     |    62 | C    |  15 |  47 | 0.242 |      -7.50 |
 
 #### Western Conference
 
@@ -41,8 +41,8 @@ Reference](https://www.basketball-reference.com/).
 | Dallas Mavericks       |    62 | SW   |  32 |  30 | 0.516 |       0.84 |
 | Golden State Warriors  |    61 | P    |  31 |  30 | 0.508 |       0.19 |
 | Utah Jazz              |    62 | NW   |  31 |  31 | 0.500 |       0.44 |
-| New Orleans Pelicans   |    61 | SW   |  30 |  31 | 0.492 |       0.90 |
 | Minnesota Timberwolves |    63 | NW   |  31 |  32 | 0.492 |      -0.18 |
+| New Orleans Pelicans   |    62 | SW   |  30 |  32 | 0.484 |       0.75 |
 | Portland Trail Blazers |    60 | NW   |  29 |  31 | 0.483 |      -0.30 |
 | Los Angeles Lakers     |    61 | P    |  29 |  32 | 0.475 |      -0.87 |
 | Oklahoma City Thunder  |    60 | NW   |  28 |  32 | 0.467 |       1.20 |
@@ -56,7 +56,7 @@ Reference](https://www.basketball-reference.com/).
 | player                  | tm  |  pts |   g |  ppg |
 |:------------------------|:----|-----:|----:|-----:|
 | Luka Dončić             | DAL | 1720 |  52 | 33.1 |
-| Joel Embiid             | PHI | 1557 |  47 | 33.1 |
+| Joel Embiid             | PHI | 1584 |  48 | 33.0 |
 | Damian Lillard          | POR | 1516 |  47 | 32.3 |
 | Giannis Antetokounmpo   | MIL | 1500 |  48 | 31.2 |
 | Shai Gilgeous-Alexander | OKC | 1674 |  54 | 31.0 |
