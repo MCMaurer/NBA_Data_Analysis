@@ -5,7 +5,7 @@ Doing some analysis and visualization of NBA data, for fun.
 Data, so far, are gathered from the wonderful [Basketball
 Reference](https://www.basketball-reference.com/).
 
-## Data as of 07:53AM March 16, 2023
+## Data as of 07:52AM March 17, 2023
 
 ### Team Standings
 
@@ -13,35 +13,35 @@ Reference](https://www.basketball-reference.com/).
 
 | Team                | Games | Div. |   W |   L |   W/L | Net Rating |
 |:--------------------|------:|:-----|----:|----:|------:|-----------:|
-| Milwaukee Bucks     |    69 | C    |  50 |  19 | 0.725 |       4.03 |
+| Milwaukee Bucks     |    70 | C    |  50 |  20 | 0.714 |       3.75 |
 | Boston Celtics      |    70 | A    |  48 |  22 | 0.686 |       5.55 |
 | Philadelphia 76ers  |    68 | A    |  46 |  22 | 0.676 |       4.46 |
 | Cleveland Cavaliers |    72 | C    |  44 |  28 | 0.611 |       5.52 |
 | New York Knicks     |    71 | A    |  41 |  30 | 0.577 |       2.93 |
-| Brooklyn Nets       |    69 | A    |  39 |  30 | 0.565 |       0.77 |
+| Brooklyn Nets       |    70 | A    |  39 |  31 | 0.557 |       0.68 |
 | Miami Heat          |    71 | SE   |  38 |  33 | 0.535 |      -0.53 |
 | Atlanta Hawks       |    69 | SE   |  34 |  35 | 0.493 |      -0.25 |
-| Toronto Raptors     |    69 | A    |  33 |  36 | 0.478 |       0.43 |
+| Toronto Raptors     |    70 | A    |  34 |  36 | 0.486 |       0.66 |
 | Washington Wizards  |    69 | SE   |  32 |  37 | 0.464 |      -0.25 |
+| Indiana Pacers      |    70 | C    |  32 |  38 | 0.457 |      -2.09 |
 | Chicago Bulls       |    68 | C    |  31 |  37 | 0.456 |       0.70 |
-| Indiana Pacers      |    69 | C    |  31 |  38 | 0.449 |      -2.35 |
-| Orlando Magic       |    69 | SE   |  28 |  41 | 0.406 |      -2.97 |
+| Orlando Magic       |    70 | SE   |  28 |  42 | 0.400 |      -2.97 |
 | Charlotte Hornets   |    71 | SE   |  22 |  49 | 0.310 |      -5.85 |
-| Detroit Pistons     |    70 | C    |  16 |  54 | 0.229 |      -7.37 |
+| Detroit Pistons     |    71 | C    |  16 |  55 | 0.225 |      -7.55 |
 
 #### Western Conference
 
 | Team                   | Games | Div. |   W |   L |   W/L | Net Rating |
 |:-----------------------|------:|:-----|----:|----:|------:|-----------:|
-| Denver Nuggets         |    69 | NW   |  46 |  23 | 0.667 |       3.62 |
+| Denver Nuggets         |    70 | NW   |  47 |  23 | 0.671 |       3.86 |
+| Sacramento Kings       |    69 | P    |  42 |  27 | 0.609 |       2.55 |
 | Memphis Grizzlies      |    68 | SW   |  41 |  27 | 0.603 |       3.71 |
-| Sacramento Kings       |    68 | P    |  41 |  27 | 0.603 |       2.51 |
-| Phoenix Suns           |    69 | P    |  37 |  32 | 0.536 |       1.81 |
+| Phoenix Suns           |    70 | P    |  38 |  32 | 0.543 |       1.83 |
 | Los Angeles Clippers   |    70 | P    |  37 |  33 | 0.529 |       0.12 |
 | Golden State Warriors  |    70 | P    |  36 |  34 | 0.514 |       0.52 |
 | Dallas Mavericks       |    70 | SW   |  35 |  35 | 0.500 |       0.52 |
 | Minnesota Timberwolves |    70 | NW   |  35 |  35 | 0.500 |       0.02 |
-| Oklahoma City Thunder  |    69 | NW   |  34 |  35 | 0.493 |       1.66 |
+| Oklahoma City Thunder  |    70 | NW   |  34 |  36 | 0.486 |       1.39 |
 | Los Angeles Lakers     |    70 | P    |  34 |  36 | 0.486 |      -0.47 |
 | New Orleans Pelicans   |    69 | SW   |  33 |  36 | 0.478 |       0.39 |
 | Utah Jazz              |    69 | NW   |  33 |  36 | 0.478 |      -0.13 |
@@ -58,18 +58,18 @@ Reference](https://www.basketball-reference.com/).
 | Joel Embiid             | PHI | 1840 |  55 | 33.5 |
 | Luka Dončić             | DAL | 1879 |  57 | 33.0 |
 | Damian Lillard          | POR | 1774 |  55 | 32.3 |
-| Giannis Antetokounmpo   | MIL | 1703 |  54 | 31.5 |
-| Shai Gilgeous-Alexander | OKC | 1815 |  58 | 31.3 |
+| Giannis Antetokounmpo   | MIL | 1728 |  55 | 31.4 |
+| Shai Gilgeous-Alexander | OKC | 1844 |  59 | 31.3 |
 
 #### VORP Leaders
 
 | player                  | tm  | vorp |
 |:------------------------|:----|-----:|
-| Nikola Jokić            | DEN |  7.8 |
+| Nikola Jokić            | DEN |  8.0 |
 | Luka Dončić             | DAL |  6.0 |
 | Joel Embiid             | PHI |  5.2 |
 | Jimmy Butler            | MIA |  4.9 |
-| Shai Gilgeous-Alexander | OKC |  4.8 |
+| Shai Gilgeous-Alexander | OKC |  4.9 |
 
 #### Advanced Stat Leaders
 
