@@ -5,7 +5,7 @@ Doing some analysis and visualization of NBA data, for fun.
 Data, so far, are gathered from the wonderful [Basketball
 Reference](https://www.basketball-reference.com/).
 
-## Data as of 07:53AM March 28, 2023
+## Data as of 07:52AM March 29, 2023
 
 ### Team Standings
 
@@ -14,19 +14,19 @@ Reference](https://www.basketball-reference.com/).
 | Team                | Games | Div. |   W |   L |   W/L | Net Rating |
 |:--------------------|------:|:-----|----:|----:|------:|-----------:|
 | Milwaukee Bucks     |    75 | C    |  54 |  21 | 0.720 |       4.20 |
-| Boston Celtics      |    75 | A    |  52 |  23 | 0.693 |       6.54 |
+| Boston Celtics      |    76 | A    |  52 |  24 | 0.684 |       6.22 |
 | Philadelphia 76ers  |    75 | A    |  49 |  26 | 0.653 |       4.67 |
-| Cleveland Cavaliers |    76 | C    |  48 |  28 | 0.632 |       5.91 |
+| Cleveland Cavaliers |    77 | C    |  48 |  29 | 0.623 |       5.81 |
 | New York Knicks     |    76 | A    |  43 |  33 | 0.566 |       2.88 |
 | Brooklyn Nets       |    75 | A    |  40 |  35 | 0.533 |       0.71 |
-| Miami Heat          |    75 | SE   |  40 |  35 | 0.533 |      -0.89 |
-| Toronto Raptors     |    75 | A    |  37 |  38 | 0.493 |       1.09 |
-| Atlanta Hawks       |    75 | SE   |  37 |  38 | 0.493 |       0.17 |
+| Miami Heat          |    76 | SE   |  40 |  36 | 0.526 |      -1.09 |
+| Toronto Raptors     |    76 | A    |  38 |  38 | 0.500 |       1.28 |
+| Atlanta Hawks       |    76 | SE   |  38 |  38 | 0.500 |       0.20 |
 | Chicago Bulls       |    75 | C    |  36 |  39 | 0.480 |       1.01 |
-| Washington Wizards  |    75 | SE   |  33 |  42 | 0.440 |      -1.06 |
+| Washington Wizards  |    76 | SE   |  34 |  42 | 0.447 |      -0.81 |
 | Indiana Pacers      |    76 | C    |  33 |  43 | 0.434 |      -3.02 |
-| Orlando Magic       |    75 | SE   |  32 |  43 | 0.427 |      -2.41 |
-| Charlotte Hornets   |    76 | SE   |  25 |  51 | 0.329 |      -5.96 |
+| Orlando Magic       |    76 | SE   |  32 |  44 | 0.421 |      -2.43 |
+| Charlotte Hornets   |    77 | SE   |  26 |  51 | 0.338 |      -5.84 |
 | Detroit Pistons     |    75 | C    |  16 |  59 | 0.213 |      -8.04 |
 
 #### Western Conference
@@ -34,15 +34,15 @@ Reference](https://www.basketball-reference.com/).
 | Team                   | Games | Div. |   W |   L |   W/L | Net Rating |
 |:-----------------------|------:|:-----|----:|----:|------:|-----------:|
 | Denver Nuggets         |    75 | NW   |  51 |  24 | 0.680 |       4.18 |
-| Memphis Grizzlies      |    74 | SW   |  47 |  27 | 0.635 |       4.36 |
+| Memphis Grizzlies      |    75 | SW   |  48 |  27 | 0.640 |       4.36 |
 | Sacramento Kings       |    75 | P    |  45 |  30 | 0.600 |       2.27 |
 | Phoenix Suns           |    75 | P    |  40 |  35 | 0.533 |       1.89 |
 | Los Angeles Clippers   |    76 | P    |  40 |  36 | 0.526 |       0.43 |
-| Golden State Warriors  |    76 | P    |  39 |  37 | 0.513 |       0.46 |
+| Golden State Warriors  |    77 | P    |  40 |  37 | 0.519 |       0.60 |
 | Minnesota Timberwolves |    76 | NW   |  39 |  37 | 0.513 |      -0.09 |
-| New Orleans Pelicans   |    75 | SW   |  38 |  37 | 0.507 |       1.93 |
-| Oklahoma City Thunder  |    75 | NW   |  37 |  38 | 0.493 |       1.07 |
+| New Orleans Pelicans   |    76 | SW   |  38 |  38 | 0.500 |       1.76 |
 | Los Angeles Lakers     |    75 | P    |  37 |  38 | 0.493 |      -0.29 |
+| Oklahoma City Thunder  |    76 | NW   |  37 |  39 | 0.487 |       1.02 |
 | Dallas Mavericks       |    76 | SW   |  37 |  39 | 0.487 |       0.53 |
 | Utah Jazz              |    75 | NW   |  35 |  40 | 0.467 |      -0.81 |
 | Portland Trail Blazers |    75 | NW   |  32 |  43 | 0.427 |      -2.68 |
