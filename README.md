@@ -5,7 +5,7 @@ Doing some analysis and visualization of NBA data, for fun.
 Data, so far, are gathered from the wonderful [Basketball
 Reference](https://www.basketball-reference.com/).
 
-## Data as of 07:47AM March 30, 2023
+## Data as of 07:50AM March 31, 2023
 
 ### Team Standings
 
@@ -13,8 +13,8 @@ Reference](https://www.basketball-reference.com/).
 
 | Team                | Games | Div. |   W |   L |   W/L | Net Rating |
 |:--------------------|------:|:-----|----:|----:|------:|-----------:|
-| Milwaukee Bucks     |    76 | C    |  55 |  21 | 0.724 |       4.31 |
-| Boston Celtics      |    76 | A    |  52 |  24 | 0.684 |       6.22 |
+| Milwaukee Bucks     |    77 | C    |  55 |  22 | 0.714 |       3.72 |
+| Boston Celtics      |    77 | A    |  53 |  24 | 0.688 |       6.67 |
 | Philadelphia 76ers  |    76 | A    |  50 |  26 | 0.658 |       4.72 |
 | Cleveland Cavaliers |    77 | C    |  48 |  29 | 0.623 |       5.81 |
 | New York Knicks     |    77 | A    |  44 |  33 | 0.571 |       2.97 |
@@ -33,14 +33,14 @@ Reference](https://www.basketball-reference.com/).
 
 | Team                   | Games | Div. |   W |   L |   W/L | Net Rating |
 |:-----------------------|------:|:-----|----:|----:|------:|-----------:|
-| Denver Nuggets         |    75 | NW   |  51 |  24 | 0.680 |       4.18 |
+| Denver Nuggets         |    76 | NW   |  51 |  25 | 0.671 |       3.85 |
 | Memphis Grizzlies      |    76 | SW   |  48 |  28 | 0.632 |       4.19 |
 | Sacramento Kings       |    76 | P    |  46 |  30 | 0.605 |       2.76 |
 | Phoenix Suns           |    76 | P    |  41 |  35 | 0.539 |       1.96 |
 | Los Angeles Clippers   |    77 | P    |  41 |  36 | 0.532 |       0.54 |
 | Golden State Warriors  |    77 | P    |  40 |  37 | 0.519 |       0.60 |
+| New Orleans Pelicans   |    77 | SW   |  39 |  38 | 0.506 |       2.01 |
 | Minnesota Timberwolves |    77 | NW   |  39 |  38 | 0.506 |      -0.18 |
-| New Orleans Pelicans   |    76 | SW   |  38 |  38 | 0.500 |       1.76 |
 | Los Angeles Lakers     |    76 | P    |  38 |  38 | 0.500 |      -0.15 |
 | Oklahoma City Thunder  |    77 | NW   |  38 |  39 | 0.494 |       1.02 |
 | Dallas Mavericks       |    77 | SW   |  37 |  40 | 0.481 |       0.42 |
@@ -59,7 +59,7 @@ Reference](https://www.basketball-reference.com/).
 | Luka Dončić             | DAL | 2032 |  62 | 32.8 |
 | Damian Lillard          | POR | 1866 |  58 | 32.2 |
 | Shai Gilgeous-Alexander | OKC | 2003 |  64 | 31.3 |
-| Giannis Antetokounmpo   | MIL | 1874 |  60 | 31.2 |
+| Giannis Antetokounmpo   | MIL | 1898 |  61 | 31.1 |
 
 #### VORP Leaders
 
