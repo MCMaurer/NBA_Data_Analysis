@@ -5,7 +5,7 @@ Doing some analysis and visualization of NBA data, for fun.
 Data, so far, are gathered from the wonderful [Basketball
 Reference](https://www.basketball-reference.com/).
 
-## Data as of 07:42AM April 08, 2023
+## Data as of 07:42AM April 09, 2023
 
 ### Team Standings
 
@@ -33,21 +33,21 @@ Reference](https://www.basketball-reference.com/).
 
 | Team                   | Games | Div. |   W |   L |   W/L | Net Rating |
 |:-----------------------|------:|:-----|----:|----:|------:|-----------:|
-| Denver Nuggets         |    80 | NW   |  52 |  28 | 0.650 |       3.28 |
+| Denver Nuggets         |    81 | NW   |  52 |  29 | 0.642 |       3.19 |
 | Memphis Grizzlies      |    81 | SW   |  51 |  30 | 0.630 |       4.17 |
 | Sacramento Kings       |    81 | P    |  48 |  33 | 0.593 |       2.70 |
 | Phoenix Suns           |    81 | P    |  45 |  36 | 0.556 |       2.20 |
 | Golden State Warriors  |    81 | P    |  43 |  38 | 0.531 |       1.14 |
-| Los Angeles Clippers   |    80 | P    |  42 |  38 | 0.525 |       0.33 |
+| Los Angeles Clippers   |    81 | P    |  43 |  38 | 0.531 |       0.46 |
 | New Orleans Pelicans   |    81 | SW   |  42 |  39 | 0.519 |       1.97 |
 | Los Angeles Lakers     |    81 | P    |  42 |  39 | 0.519 |       0.43 |
-| Minnesota Timberwolves |    80 | NW   |  40 |  40 | 0.500 |      -0.28 |
+| Minnesota Timberwolves |    81 | NW   |  41 |  40 | 0.506 |      -0.04 |
 | Oklahoma City Thunder  |    81 | NW   |  39 |  42 | 0.481 |       0.85 |
 | Dallas Mavericks       |    81 | SW   |  38 |  43 | 0.469 |       0.29 |
-| Utah Jazz              |    80 | NW   |  36 |  44 | 0.450 |      -0.96 |
-| Portland Trail Blazers |    80 | NW   |  33 |  47 | 0.413 |      -3.44 |
-| San Antonio Spurs      |    80 | SW   |  21 |  59 | 0.263 |     -10.10 |
+| Utah Jazz              |    81 | NW   |  37 |  44 | 0.457 |      -0.90 |
+| Portland Trail Blazers |    81 | NW   |  33 |  48 | 0.407 |      -3.53 |
 | Houston Rockets        |    81 | SW   |  21 |  60 | 0.259 |      -8.18 |
+| San Antonio Spurs      |    81 | SW   |  21 |  60 | 0.259 |     -10.21 |
 
 ### Individual Stats
 
