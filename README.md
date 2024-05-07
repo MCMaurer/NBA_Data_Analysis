@@ -5,7 +5,7 @@ Doing some analysis and visualization of NBA data, for fun.
 Data, so far, are gathered from the wonderful [Basketball
 Reference](https://www.basketball-reference.com/).
 
-## Data as of 07:42AM May 06, 2024
+## Data as of 07:43AM May 07, 2024
 
 ### Team Standings
 
@@ -13,6 +13,8 @@ Reference](https://www.basketball-reference.com/).
 
 | Team               | Games | Div. |   W |   L |   W/L | Net Rating |
 |:-------------------|------:|:-----|----:|----:|------:|-----------:|
+| Toronto Raptors    |    82 | A    |  41 |  41 | 0.500 |       1.51 |
+| Chicago Bulls      |    82 | C    |  40 |  42 | 0.488 |       1.36 |
 | Washington Wizards |    82 | SE   |  35 |  47 | 0.427 |      -1.28 |
 | Indiana Pacers     |    82 | C    |  35 |  47 | 0.427 |      -3.16 |
 | Orlando Magic      |    82 | SE   |  34 |  48 | 0.415 |      -2.57 |
@@ -23,6 +25,8 @@ Reference](https://www.basketball-reference.com/).
 
 | Team                   | Games | Div. |   W |   L |   W/L | Net Rating |
 |:-----------------------|------:|:-----|----:|----:|------:|-----------:|
+| New Orleans Pelicans   |    82 | SW   |  42 |  40 | 0.512 |       1.88 |
+| Oklahoma City Thunder  |    82 | NW   |  40 |  42 | 0.488 |       1.03 |
 | Dallas Mavericks       |    82 | SW   |  38 |  44 | 0.463 |       0.06 |
 | Utah Jazz              |    82 | NW   |  37 |  45 | 0.451 |      -1.02 |
 | Portland Trail Blazers |    82 | NW   |  33 |  49 | 0.402 |      -4.11 |
